@@ -374,7 +374,6 @@ dependencies:
 #thea: deprecated
 #umutil
 #umutil-lib
-    - tensorflow
     - theano
     - tk 
 #tk-devel

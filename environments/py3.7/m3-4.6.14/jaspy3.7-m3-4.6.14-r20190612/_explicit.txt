@@ -327,7 +327,6 @@ https://conda.anaconda.org/conda-forge/linux-64/pyqt-5.9.2-py37hcca6a23_0.tar.bz
 https://conda.anaconda.org/conda-forge/linux-64/pyside2-5.9.0a1-py37h4dc837a_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/scikit-learn-0.21.2-py37h627018c_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/sympy-1.4-py37_0.tar.bz2
-https://repo.anaconda.com/pkgs/main/noarch/tensorflow-estimator-1.13.0-py_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/wheel-0.33.4-py37_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/windspharm-1.7.0-py37_1000.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/basemap-1.2.0-py37hf62cb97_3.tar.bz2
@@ -355,7 +354,6 @@ https://conda.anaconda.org/conda-forge/linux-64/r-base-3.5.1-h271c98b_1006.tar.b
 https://conda.anaconda.org/conda-forge/linux-64/scikit-image-0.15.0-py37hb3f55d8_2.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/statsmodels-0.9.0-py37h3010b51_1000.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/tempest-remap-2.0.3-h5f743cb_0.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/tensorboard-1.13.1-py37_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/theano-1.0.4-py37hf484d3e_1000.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/xarray-0.12.1-py_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/dask-1.2.2-py_3.tar.bz2
@@ -416,7 +414,6 @@ https://conda.anaconda.org/conda-forge/noarch/r-withr-2.1.2-r351h6115d3f_1000.ta
 https://conda.anaconda.org/conda-forge/linux-64/r-yaml-2.2.0-r351h96ca727_1001.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/r-zeallot-0.1.0-r351h6115d3f_1000.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/seaborn-0.9.0-py_1.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/tensorflow-1.13.1-py37_0.tar.bz2
 https://conda.anaconda.org/conda-forge/linux-64/urllib3-1.24.3-py37_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/botocore-1.12.174-py_0.tar.bz2
 https://conda.anaconda.org/conda-forge/noarch/geopandas-0.5.0-py_2.tar.bz2

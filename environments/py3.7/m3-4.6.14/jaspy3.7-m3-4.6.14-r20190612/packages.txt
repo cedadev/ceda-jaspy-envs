@@ -424,9 +424,6 @@ tbb-2019.7-hc9558a2_0
 tblib-1.4.0-py_0
 tcsh-6.20.00-hf8c457e_0
 tempest-remap-2.0.3-h5f743cb_0
-tensorboard-1.13.1-py37_0
-tensorflow-1.13.1-py37_0
-tensorflow-estimator-1.13.0-py_0
 termcolor-1.1.0-py_2
 theano-1.0.4-py37hf484d3e_1000
 tk-8.6.9-hed695b0_1002
@@ -483,11 +480,7 @@ zstd-1.4.0-h3b9ef0a_0
 Pip installs:
 git+https://github.com/cedadev/nappy
 bigtiff
-#ccplot - Only Py2 ?
 cfchecker
 f90nml
-#pygeode - ONLY Py2 ?
 pypdftk
-#python-ddd ???
-#ScientificPython - ONLY Py2?
 simplejson

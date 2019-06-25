@@ -152,7 +152,6 @@ dependencies:
     - sqlite
     - statsmodels
     - tcsh
-    - tensorflow
     - theano
     - tk 
     - tmux
