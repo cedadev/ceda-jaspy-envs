@@ -1,0 +1,11 @@
+    - pip:
+      - git+https://github.com/cedadev/nappy
+      - bigtiff
+#      - ccplot - Only Py2 ?
+      - cfchecker
+      - f90nml
+#      - pygeode - ONLY Py2 ?
+      - pypdftk
+#      - python-ddd ???
+#      - ScientificPython - ONLY Py2?
+      - simplejson
