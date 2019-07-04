@@ -1,4 +1,4 @@
-name: jaspy3.7-m3-4.6.14-r20190627
+name: jaspy3.7-m3-4.6.14-r20190703
 channels:
     - conda-forge
     - defaults
@@ -51,6 +51,7 @@ dependencies:
     - esmf
 #esmf-doc
 #ferret: see: pyferret
+    - ffmpeg
     - fftw
 #fftw-devel ? needed?
 #firefox
@@ -98,6 +99,7 @@ dependencies:
     - ilamb
     - imagehash
     - imagemagick
+    - intake-xarray
     - ipython
     - iris
     - iris-grib
@@ -121,7 +123,6 @@ dependencies:
 #libcurl-devel
 #libRmath-devel
 #libRmath
-    - llvmdev
 #lxterminal
     - libdrs
     - libgcc
@@ -130,6 +131,8 @@ dependencies:
     - libmo_unpack
     - libuuid
 #libuuid-devel
+    - llvmdev
+    - llvmlite
     - locket
     - markupsafe
     - matplotlib>=3
@@ -202,6 +205,8 @@ dependencies:
     - pyhdf
     - pyke
     - pylint
+    - pymc3
+    - pyngl
     - pyparsing
     - pyproj
     - pyside2
@@ -411,6 +416,7 @@ dependencies:
       - cfchecker
       - f90nml
 #      - pygeode - ONLY Py2 ?
+      - pipenv
       - pypdftk
 #      - python-ddd ???
 #      - ScientificPython - ONLY Py2?
