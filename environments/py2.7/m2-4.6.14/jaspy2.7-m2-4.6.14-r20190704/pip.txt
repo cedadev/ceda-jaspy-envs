@@ -1,0 +1,13 @@
+git+https://github.com/cedadev/nappy
+bigtiff
+#ccplot: incompatible with gcc
+cfchecker
+cf-plot
+cf-python
+f90nml
+pygeode
+pipenv
+pypdftk
+#python-ddd ???
+#ScientificPython: incompatible with numpy version
+simplejson
