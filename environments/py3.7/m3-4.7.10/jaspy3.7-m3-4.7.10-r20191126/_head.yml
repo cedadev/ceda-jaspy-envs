@@ -1,0 +1,5 @@
+name: jaspy3.7-m3-4.7.10-r20191126
+channels:
+    - conda-forge
+    - defaults
+dependencies:
