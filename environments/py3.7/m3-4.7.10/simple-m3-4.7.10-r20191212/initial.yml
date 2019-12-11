@@ -1,0 +1,11 @@
+name: simple-m3-4.7.10-r20191212
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.7
+    - cartopy
+    - iris
+    - matplotlib=3
+    - numpy
+    - pandas
