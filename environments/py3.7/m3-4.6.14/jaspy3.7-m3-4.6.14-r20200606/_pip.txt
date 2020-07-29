@@ -1,0 +1,13 @@
+    - pip:
+      - git+https://github.com/cedadev/nappy
+      - bigtiff
+      - ccplot
+      - cfchecker
+      - cf-plot
+      - cf-python
+      - ecmwf-api-client
+      - f90nml
+      - pygeode
+      - pipenv
+      - pypdftk
+      - simplejson
