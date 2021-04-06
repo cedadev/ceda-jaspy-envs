@@ -1,0 +1,12 @@
+git+https://github.com/cedadev/nappy
+bigtiff>=0.1.2
+ccplot>=1.5.2
+cfchecker>=4.0.0
+cf-plot>=3.0.20
+cf-python>=3.5.1
+ecmwf-api-client>=1.5.4
+f90nml>=1.2
+pygeode>=1.4.0
+pipenv>=2020.6.2
+pypdftk>=0.4
+simplejson>=3.17.0

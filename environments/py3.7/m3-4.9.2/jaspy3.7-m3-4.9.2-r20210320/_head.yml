@@ -1,0 +1,5 @@
+name: jaspy3.7-m3-4.9.2-r20210320
+channels:
+    - conda-forge
+    - defaults
+dependencies:
