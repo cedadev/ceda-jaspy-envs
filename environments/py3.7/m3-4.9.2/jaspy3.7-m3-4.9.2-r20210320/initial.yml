@@ -91,7 +91,7 @@ dependencies:
     - mpi4py>=3.0.3
 #    - mpich
     - mpmath>=1.1.0
-    - ncl>=6.6.2   
+    - ncl>=6.6.2
     - nco>=4.9.2
     - nc-time-axis>=1.2.0
     - netcdf4>=1.5.3
