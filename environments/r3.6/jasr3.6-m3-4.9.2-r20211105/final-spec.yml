@@ -1214,6 +1214,7 @@ dependencies:
   - xorg-fixesproto=5.0=h14c3975_1002
   - xorg-inputproto=2.3.2=h14c3975_1002
   - xorg-kbproto=1.0.7=h14c3975_1002
+  - xorg-libxau
   - xorg-libice=1.0.10=h516909a_0
   - xorg-libsm=1.2.3=hd9c2040_1000
   - xorg-libx11=1.7.2=h7f98852_0
