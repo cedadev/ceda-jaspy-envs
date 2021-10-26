@@ -1,8 +1,11 @@
 name: jasr3.6-m3-4.9.2-r20211105
 channels:
-  - http://dist.ceda.ac.uk/jaspy/jasr3.6/m3-4.9.2/linux-64/
   - conda-forge
+  - defaults
 dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=1_gnu
+  - _r-mutex=1.0.1=anacondar_1
   - alsa-lib=1.2.3=h516909a_0
   - atk-1.0=2.36.0=h3371d22_4
   - backports=1.0=py_2
@@ -12,22 +15,22 @@ dependencies:
   - boost-cpp=1.74.0=h9359b55_0
   - bwidget=1.9.14=ha770c72_1
   - bzip2=1.0.8=h7f98852_4
+  - c-ares=1.17.2=h7f98852_0
   - ca-certificates=2021.10.8=ha878542_0
   - cairo=1.16.0=h488836b_1006
-  - c-ares=1.17.2=h7f98852_0
   - cffi=1.14.6=py38h3931269_1
   - cfitsio=3.470=hce51eda_7
   - curl=7.76.1=h979ede3_1
   - expat=2.4.1=h9c3ff4c_0
   - ffmpeg=4.4.0=hca11adc_0
   - fftw=3.3.9=h27cfd23_1
-  - fontconfig=2.13.1=hba837de_1005
-  - fonts-conda-ecosystem=1=0
-  - fonts-conda-forge=1=0
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
   - font-ttf-ubuntu=0.83=hab24e00_0
+  - fontconfig=2.13.1=hba837de_1005
+  - fonts-conda-ecosystem=1=0
+  - fonts-conda-forge=1=0
   - freetype=2.10.4=h0708190_1
   - freexl=1.0.6=h7f98852_0
   - fribidi=1.0.10=h516909a_0
@@ -77,12 +80,11 @@ dependencies:
   - libev=4.33=h516909a_1
   - libffi=3.4.2=h9c3ff4c_4
   - libgcc-devel_linux-64=7.5.0=hda03d7c_19
-  - _libgcc_mutex=0.1=conda_forge
   - libgcc-ng=11.2.0=h1d223b6_11
   - libgd=2.3.0=h6e6070c_0
   - libgdal=3.1.4=h50e41a3_1
-  - libgfortran4=7.5.0=h14aa051_19
   - libgfortran-ng=7.5.0=h14aa051_19
+  - libgfortran4=7.5.0=h14aa051_19
   - libgit2=1.1.1=hee63804_1
   - libglib=2.70.0=h174f98d_0
   - libglu=9.0.0=he1b5a44_1001
@@ -128,12 +130,11 @@ dependencies:
   - openh264=2.1.1=h780b84a_0
   - openjdk=11.0.8=hacce0ff_0
   - openjpeg=2.4.0=hb52868f_1
-  - _openmp_mutex=4.5=1_gnu
   - openssl=1.1.1l=h7f98852_0
   - pandoc=2.14.2=h7f98852_0
   - pango=1.42.4=h80147aa_5
-  - pcre2=10.37=h032f7d1_0
   - pcre=8.45=h9c3ff4c_0
+  - pcre2=10.37=h032f7d1_0
   - perl=5.32.1=1_h7f98852_perl5
   - phantomjs=2.1.1=1
   - pip=21.3=pyhd8ed1ab_0
@@ -233,8 +234,8 @@ dependencies:
   - r-brms=2.14.4=r36he524a50_0
   - r-brobdingnag=1.2_6=r36h6115d3f_1003
   - r-broom=0.7.6=r36hc72bb7e_0
-  - r-broomextra=4.2.3=r36hc72bb7e_0
   - r-broom.mixed=0.2.6=r36h6115d3f_0
+  - r-broomextra=4.2.3=r36hc72bb7e_0
   - r-bslib=0.2.5.1=r36hc72bb7e_0
   - r-bsplus=0.1.2=r36hc72bb7e_0
   - r-butcher=0.1.4=r36hc72bb7e_0
@@ -300,10 +301,10 @@ dependencies:
   - r-cubist=0.2.40=r36hcfec24a_0
   - r-curl=4.3.1=r36hcfec24a_0
   - r-d3network=0.5.2.1=r36h6115d3f_1
-  - r-datamods=1.1.4=r36hc72bb7e_0
-  - r-datarium=0.1.0=r36h6115d3f_0
   - r-data.table=1.14.0=r36hcfec24a_0
   - r-data.tree=1.0.0=r36_0
+  - r-datamods=1.1.4=r36hc72bb7e_0
+  - r-datarium=0.1.0=r36h6115d3f_0
   - r-dbi=1.1.1=r36hc72bb7e_0
   - r-dbplyr=2.1.1=r36hc72bb7e_0
   - r-debugme=1.1.0=r36h6115d3f_1003
@@ -339,7 +340,6 @@ dependencies:
   - r-dunn.test=1.3.5=r36_1002
   - r-dygraphs=1.1.1.6=r36h6115d3f_1003
   - r-e1071=1.7_7=r36h03ef668_0
-  - readline=8.1=h46c0cb4_0
   - r-earth=5.3.0=r36h31ca83e_1
   - r-ecodist=2.0.7=r36hcdcec82_0
   - r-effects=4.2_0=r36h6115d3f_0
@@ -395,8 +395,8 @@ dependencies:
   - r-filehash=2.4_2=r36h516909a_2
   - r-filenamer=0.2.3=r36h6115d3f_0
   - r-fishmod=0.29=r36h29659fb_0
-  - r-fitdistrplus=1.1_3=r36hc72bb7e_0
   - r-fit.models=0.64=r36h6115d3f_0
+  - r-fitdistrplus=1.1_3=r36hc72bb7e_0
   - r-flashclust=1.01_2=r36h31ca83e_1006
   - r-flexmix=2.3_17=r36h142f84f_0
   - r-flextable=0.6.6=r36hc72bb7e_0
@@ -697,7 +697,6 @@ dependencies:
   - r-multicool=0.1_11=r36he1b5a44_1
   - r-mumin=1.43.17=r36h6115d3f_1
   - r-munsell=0.5.0=r36h6115d3f_1003
-  - _r-mutex=1.0.1=anacondar_1
   - r-mvnfast=0.2.7=r36h306847c_0
   - r-mvnormtest=0.1_9=r36h6115d3f_1003
   - r-mvtnorm=1.1_1=r36h31ca83e_1
@@ -834,7 +833,6 @@ dependencies:
   - r-purrr=0.3.4=r36hcfec24a_1
   - r-purrrlyr=0.0.7=r36h03ef668_0
   - r-pwr=1.3_0=r36h6115d3f_1
-  - rpy2=3.4.5=py38r36hb5d20a5_0
   - r-qap=0.1_1=r36h31ca83e_1006
   - r-qgam=1.3.3=r36hcfec24a_0
   - r-qpcr=1.4_1=r36hcdcec82_1
@@ -845,6 +843,11 @@ dependencies:
   - r-quantreg=5.75=r36hc3f0d1c_0
   - r-questionr=0.7.4=r36hc72bb7e_0
   - r-qvcalc=1.0.2=r36h6115d3f_1
+  - r-r.cache=0.15.0=r36hc72bb7e_0
+  - r-r.matlab=3.6.2=r36h6115d3f_1003
+  - r-r.methodss3=1.8.1=r36h6115d3f_0
+  - r-r.oo=1.24.0=r36h6115d3f_0
+  - r-r.utils=2.10.1=r36h6115d3f_0
   - r-r2jags=0.6_1=r36h6115d3f_1
   - r-r2winbugs=2.1_21=r36h6115d3f_2
   - r-r6=2.5.0=r36hc72bb7e_0
@@ -858,7 +861,6 @@ dependencies:
   - r-rayshader=0.24.10=r36h03ef668_0
   - r-rbenchmark=1.0.0=r36h6115d3f_0
   - r-rbison=1.0.0=r36h6115d3f_0
-  - r-r.cache=0.15.0=r36hc72bb7e_0
   - r-rcmdcheck=1.3.3=r36h6115d3f_3
   - r-rcmdrmisc=2.7_1=r36h6115d3f_0
   - r-rcolorbrewer=1.1_2=r36h6115d3f_1003
@@ -911,9 +913,7 @@ dependencies:
   - r-rlrsim=3.1_6=r36h0357c0b_1
   - r-rmapshaper=0.4.5=r36hc72bb7e_0
   - r-rmarkdown=2.8=r36hc72bb7e_0
-  - r-r.matlab=3.6.2=r36h6115d3f_1003
   - r-rmdpartials=0.5.8=r36hc72bb7e_0
-  - r-r.methodss3=1.8.1=r36h6115d3f_0
   - r-rmisc=1.5=r36h6115d3f_1
   - r-rmpfr=0.8_4=r36h788b0ad_0
   - r-rms=6.0_1=r36h31ca83e_1
@@ -930,7 +930,6 @@ dependencies:
   - r-robustbase=0.93_6=r36hc3f0d1c_2
   - r-rocr=1.0_11=r36h6115d3f_1
   - r-rodbc=1.3_16=r36hcdcec82_1
-  - r-r.oo=1.24.0=r36h6115d3f_0
   - r-rook=1.1_1=r36hcdcec82_1004
   - r-rootsolve=1.8.2.1=r36h31ca83e_2
   - r-rosm=0.2.5=r36h6115d3f_1
@@ -960,7 +959,6 @@ dependencies:
   - r-rttf2pt1=1.3.8=r36hcdcec82_1
   - r-rtweet=0.7.0=r36h0357c0b_1
   - r-runit=0.4.32=r36h6115d3f_1002
-  - r-r.utils=2.10.1=r36h6115d3f_0
   - r-rvcheck=0.1.8=r36h6115d3f_1
   - r-rversions=2.0.2=r36h6115d3f_0
   - r-rvertnet=0.8.2=r36hc72bb7e_0
@@ -1182,8 +1180,8 @@ dependencies:
   - r-xfun=0.23=r36hcfec24a_0
   - r-xlsx=0.6.5=r36hc72bb7e_0
   - r-xlsxjars=0.6.1=r36h6115d3f_3
-  - r-xml2=1.3.2=r36h0357c0b_1
   - r-xml=3.99_0.3=r36hcdcec82_1
+  - r-xml2=1.3.2=r36h0357c0b_1
   - r-xopen=1.0.0=r36h6115d3f_1003
   - r-xtable=1.8_4=r36h6115d3f_3
   - r-xts=0.12.1=r36hcdcec82_0
@@ -1194,6 +1192,8 @@ dependencies:
   - r-zip=2.1.1=r36hcfec24a_0
   - r-zoo=1.8_9=r36hcfec24a_0
   - r-ztable=0.2.2=r36h142f84f_0
+  - readline=8.1=h46c0cb4_0
+  - rpy2=3.4.5=py38r36hb5d20a5_0
   - sed=4.8=he412f7d_0
   - setuptools=58.2.0=py38h578d9bd_0
   - simplegeneric=0.8.1=py_1
@@ -1214,10 +1214,10 @@ dependencies:
   - xorg-fixesproto=5.0=h14c3975_1002
   - xorg-inputproto=2.3.2=h14c3975_1002
   - xorg-kbproto=1.0.7=h14c3975_1002
+  - xorg-libxau
   - xorg-libice=1.0.10=h516909a_0
   - xorg-libsm=1.2.3=hd9c2040_1000
   - xorg-libx11=1.7.2=h7f98852_0
-  - xorg-libxau=1.0.9=h7f98852_0
   - xorg-libxext=1.3.4=h7f98852_1
   - xorg-libxfixes=5.0.3=h7f98852_1004
   - xorg-libxi=1.7.10=h7f98852_0
@@ -1231,3 +1231,4 @@ dependencies:
   - xz=5.2.5=h516909a_1
   - zlib=1.2.11=h36c2ea0_1013
   - zstd=1.4.9=ha95c52a_0
+# Pip installs
