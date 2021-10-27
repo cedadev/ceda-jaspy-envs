@@ -1,6 +1,6 @@
 name: jasr3.6-m3-4.9.2-r20211105
 channels:
-  - http://dist.ceda.ac.uk/jaspy/jasr3.6/m3-4.9.2/linux-64/
+  - https://dist.ceda.ac.uk/jaspy/jasr3.6/m3-4.9.2
   - conda-forge
 dependencies:
   - alsa-lib=1.2.3=h516909a_0
