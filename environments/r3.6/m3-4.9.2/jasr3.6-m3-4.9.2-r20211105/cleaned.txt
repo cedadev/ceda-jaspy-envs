@@ -586,7 +586,6 @@ dependencies:
   - r-ks=1.13.0=r36hcfec24a_0
   - r-ksamples=1.2_9=r36hcdcec82_2
   - r-ksgeneral=0.1.1=r36h29659fb_0
-  - r-kyotil=2018.10_17=r36h96ca727_0
   - r-labdsv=2.0_1=r36h31ca83e_3
   - r-labeling=0.4.2=r36h142f84f_0
   - r-labelled=2.8.0=r36hc72bb7e_0
@@ -911,7 +910,6 @@ dependencies:
   - r-rlang=0.4.11=r36hcfec24a_0
   - r-rle=0.9.2=r36h0eb13af_0
   - r-rlrsim=3.1_6=r36h0357c0b_1
-  - r-rmapshaper=0.4.5=r36hc72bb7e_0
   - r-rmarkdown=2.8=r36hc72bb7e_0
   - r-rmdpartials=0.5.8=r36hc72bb7e_0
   - r-rmisc=1.5=r36h6115d3f_1
