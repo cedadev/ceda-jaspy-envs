@@ -1,9 +1,11 @@
+# packages that are commented out have no currently available R-4 version
+# except the two with "###", which are available on conda but then fail to load in R
 name: renv
 channels:
     - conda-forge
     - defaults
 dependencies:
-    - r-base>=4.1.1
+    - r-base>=4.0.5
     - r-abind
     - r-acepack
     - r-ade4
