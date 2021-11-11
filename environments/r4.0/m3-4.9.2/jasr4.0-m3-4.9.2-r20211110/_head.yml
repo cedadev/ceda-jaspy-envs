@@ -1,0 +1,5 @@
+name: jasr4.0-m3-4.9.2-r20211110
+channels:
+  - conda-forge
+  - defaults
+dependencies:
