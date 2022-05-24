@@ -1,0 +1,227 @@
+# for the required packages, versions at least those in jaspy/3.7/r20210320
+name: jaspy
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - gcc>=11.2.0
+    - gfortran>=11.2.0
+    - gxx>=11.2.0
+    - python=3.8
+    - arpack>=3.7.0
+    - astral>=1.9.2
+#    - basemap>=1.3.0  
+    - basemap-data-hires>=1.2.2
+    - blas>=2.20
+    - boto3>=1.16.57
+    - botocore>=1.19.57
+    - cartopy>=0.18.0
+    - certifi>=2020.12.5
+    - chardet>=4.0.0
+    - cdo>=1.9.8
+    - cftime>=1.3.1
+    - cf-units>=2.0.1
+    - cis>=1.7.2
+    - cloudpickle>=1.6.0
+    - cycler>=0.10.0
+    - cython>=0.29.21
+    - dask>=2021.1.0
+#    - dask-tensorflow
+    - descartes>=1.1.0
+    - eccodes>=2.19.1
+    - emacs>=27.1
+    - emcee>=3.0.2
+    - eofs>=1.4.0
+    - esgf-pyclient>=0.2.1
+    - esmf>=8.0.1
+    - ffmpeg>=4.3.1
+    - fftw>=3.3.9
+    - flake8>=3.8.4
+    - flex>=2.6.4
+    - filelock>=3.0.12
+    - fiona>=1.8.18
+    - gdal>=3.1.4
+    - geopandas>=0.8.1
+    - geos>=3.8.1
+    - git>=2.30.0
+    - glib>=2.66.4
+    - gnuplot>=5.4.1
+    - graphicsmagick>=1.3.35
+##GraphicsMagick-c++
+    - graphviz>=2.42.3
+    - gsl>=2.6
+    - gtk2>=2.24.33
+    - h5py>=3.1.0
+    - hdf5>=1.10.6
+    - hdfeos2>=2.20
+    - hdfeos5>=5.1.16
+    - httplib2>=0.18.1
+    - idna>=2.10
+    - ilamb>=2.5
+    - imagehash>=4.2.0
+    - imagemagick>=7.0.10_28
+    - intake-xarray>=0.4.1
+    - ipython>=7.19.0
+    - iris>=2.4.0
+    - iris-grib>=0.15.1
+    - iris-sample-data>=2.3.0
+    - jags>=4.3.0
+    - jasper>=1.900.1
+    - jinja2>=2.11.2
+    - jmespath>=0.10.0
+    - joblib>=1.0.0
+    - jug>=2.0.3
+#    - keras
+    - kiwisolver>=1.3.1
+    - lapack>=3.6.1
+    - latexcodec>=2.0.1
+    - libcdms>=3.1.2
+    - libcurl>=7.71.1
+    - libdrs>=3.1.2
+#    - libgcc>=11.2.0
+#    - libgcc-ng>=11.2.0
+    - libgdal>=3.1.4
+    - libmo_unpack>=3.1.2
+    - libuuid>=2.32.1
+    - llvmdev>=11.0.1
+    - llvmlite>=0.35.0
+    - locket>=0.2.1
+    - markupsafe>=1.1.1
+    # - matplotlib>=3.3.3
+    # - mercurial
+##: FAIL: mercurial -> python[version='>=2.7,<2.8.0a0']
+    - mo_pack>=0.2.0
+    - mock>=4.0.3
+    - mpi4py>=3.0.3
+#    - mpich
+    - mpmath>=1.1.0
+    - ncl>=6.6.2
+    - nco>=4.9.7
+    - nc-time-axis>=1.2.0
+    - netcdf4>=1.5.5.1
+    - netcdf-cxx4>=4.3.1
+    - netcdf-fortran>=4.5.3
+    - nose>=1.3.7
+    - numpy>=1.19.5
+    - packaging>=20.8
+    - pandas>=1.2.1
+    - parallel>=20201122
+    - partd>=1.1.0
+    - patsy>=0.5.1
+    - pep8>=1.7.1
+    - perl>=5.26.2
+    - perl-xml-parser>=2.44_01
+    - pillow>=8.1.0
+    - pip>=20.3.3
+    - postgresql>=12.3
+    - psutil>=5.8.0
+    - psycopg2>=2.8.6
+    - pyaml>=20.4.0
+    - pybtex>=0.24.0
+    - pycairo>=1.20.0
+    - pycodestyle>=2.6.0
+    - pydap>=3.2.2
+    - pygments>=2.7.4
+    - pygobject>=3.38.0
+    - pygrib>=2.1.3
+    - pyhdf>=0.10.2
+    - pyke>=1.1.1
+    - pylint>=2.6.0
+    - pyparsing>=2.4.7
+    - pyproj>=2.6.1.post1
+    - pyside2>=5.13.2
+    - pyshp>=2.1.3
+    - pyspharm>=1.0.9
+    - pytest>=6.2.1
+##python27-cerbere
+    - python-dateutil>=2.8.1
+    - python-eccodes>=2020.10.1
+    - python-graphviz>=0.16
+    - pytz>=2020.5
+    - pyugrid>=0.3.1
+    - pyyaml>=5.4.1
+    - pyzmq>=21.0.1
+#    - qgis
+    - qt>=5.12.9
+    - requests>=2.25.1
+# removing rpy - will put in Jasr instead
+#    - rpy2>=3.4.2
+    - s3transfer>=0.3.4
+    - scikit-learn>=0.24.1
+    - scikit-image>=0.18.1
+    - scipy>=1.5.3
+    - seaborn>=0.11.1
+    - setuptools>=51.3.3
+    - shapely>=1.7.1
+    - singledispatch>=3.4.0.3
+    - six>=1.15.0
+    - sphinx>=3.4.3
+    - sqlite>=3.34.0
+    - statsmodels>=0.12.1
+    - sympy>=1.7.1
+    - tcsh>=6.22.03
+#    - tensorflow
+#    - tensorflow-estimator
+    - tk>=8.6.10
+    - tmux>=3.1
+    - toolz>=0.11.1
+    - tornado>=6.1
+    - tqdm>=4.56.0
+    - udunits2>=2.2.27.27
+    - urllib3>=1.26.2
+    - valgrind>=3.15.0
+    - virtualenv>=20.4.0
+    - webob>=1.8.6
+    - windspharm>=1.7.0
+    - wxpython>=4.1.0
+    - xarray>=0.16.2
+    - xesmf>=0.5.1
+    - xorg-libx11>=1.6.12
+    - gcc_linux-64>=11.2.0
+    - gfortran_linux-64>=11.2.0
+    - gxx_linux-64>=11.2.0
+    - openmpi>=4.0.5
+
+#
+# These removed for the time being because of dependence on older versions of C / fortran libraries
+#  - aim to reinstate in a later Jaspy
+#
+#    - theano>=1.0.5
+#    - pymc3>=3.7
+#    - pystan>=2.17.1.0
+#    - pyngl>=1.6.1
+#    - pyferret>=7.63
+
+# New packages for this release (no previous version, hence no version numbers here,
+# but should be given >= version numbers next time)
+    - pysoundfile
+    - intake-esm
+    - fsspec
+    - sqlalchemy
+    - intake-xarray
+    - nbconvert
+    - cdsapi
+    - minio
+    - nctoolkit
+    - ncview
+    - cmocean
+# also oggm pip package below
+
+#Pip installs
+    - pip:
+      - git+https://github.com/cedadev/nappy
+      - bigtiff>=0.1.2
+      - ccplot>=1.5.4
+      - cfchecker>=4.0.0
+      - cf-plot>=3.0.38
+      - cf-python>=3.8.0
+      - ecmwf-api-client>=1.6.1
+      - f90nml>=1.2
+      - pygeode>=1.4.0
+      - pipenv>=2020.11.15
+      - pypdftk>=0.4
+      - simplejson>=3.17.2
+      - oggm
+##      - pystan>=3.1.1
+##      - Theano>=1.0.5
+##      - pymc3>=3.11.4
