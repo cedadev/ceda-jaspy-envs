@@ -1,0 +1,239 @@
+# for the required packages, versions at least those in jaspy/3.7/r20210320
+name: jaspy
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    # - matplotlib>=3.3.3
+    # - mercurial
+    - arpack>=3.7.0
+    - astral>=2.2
+    # forcing exact versions of basemap and basemap-data-hires
+    # (otherwise installs basemap=1.2.2 and basemap-data-hires=1.3.2
+    # which are incompatible due to moved file location but lack the
+    # deps info to prevent this happening)
+    - basemap=1.2.2
+    - basemap-data-hires=1.2.2
+    - blas>=2.112
+    - boto3>=1.19.3
+    - botocore>=1.22.3
+    - cartopy>=0.18.0
+    - cdo>=1.9.8
+    - cdsapi>=0.5.1
+    - certifi>=2021.10.8
+    - cf-units>=3.0.1   # cf-units >= 3.0.1.post0 ##AMI
+    - cftime>=1.5.1
+    - chardet>=4.0.0
+    - cis>=1.7.3
+    - cloudpickle>=2.0.0
+    - cmocean>=2.0
+    - cycler>=0.10.0
+    - cython>=0.29.24
+    - dask>=2021.10.0
+    - descartes>=1.1.0
+    - eccodes>=2.21.0
+    - emacs>=27.1
+    - emcee>=3.1.1
+    - eofs>=1.4.0
+    - esgf-pyclient>=0.3.0
+    - esmf>=8.1.0
+    - ffmpeg>=4.4.0
+    - fftw>=3.3.10
+    - filelock>=3.3.1
+    - fiona>=1.8.18
+    - flake8>=4.0.1
+    - flex>=2.6.4
+    - fsspec>=2021.10.1
+    - gcc>=11.2.0
+    - gcc_linux-64>=11.2.0
+    - gdal>=3.1.4
+    - geopandas>=0.10.2
+    - geos>=3.8.1
+    - gfortran>=11.2.0
+    - gfortran_linux-64>=11.2.0
+    - git>=2.32.0
+    - glib>=2.70.0
+    - gnuplot>=5.4.1
+    - graphicsmagick>=1.3.35
+    - graphviz>=2.47.1
+    - gsl>=2.6
+    - gtk2>=2.24.33
+    - gxx>=11.2.0
+    - gxx_linux-64>=11.2.0
+    - h5py>=3.3.0
+    - hdf5>=1.10.6
+    - hdfeos2>=2.20
+    - hdfeos5>=5.1.16
+    - httplib2>=0.20.1
+    - idna>=3.2
+    - ilamb>=2.6
+    - imagehash>=4.2.1
+    - imagemagick>=7.0.11_12
+    - intake-esm>=2021.8.17
+    - intake-xarray>=0.5.0
+    - ipython>=7.28.0
+    - iris>=3.1.0
+    - iris-grib>=0.17.1
+    - iris-sample-data>=2.4.0
+    - jags>=4.3.0
+    - jasper>=1.900.1
+    - jinja2>=3.0.2
+    - jmespath>=0.10.0
+    - joblib>=1.1.0
+    - jug>=2.1.1
+    - kiwisolver>=1.3.2
+    - lapack>=3.9.0
+    - latexcodec>=2.0.1
+    - libcdms>=3.1.2
+    - libcurl>=7.76.1
+    - libdrs>=3.1.2
+    - libgdal>=3.1.4
+    - libmo_unpack>=3.1.2
+    - libuuid>=2.32.1
+    - llvmdev>=11.1.0
+    - llvmlite>=0.37.0
+    - locket>=0.2.1
+    - markupsafe>=2.0.1
+    - minio>=7.1.1
+    - mo_pack>=0.2.0
+    - mock>=4.0.3
+    - mpi4py>=3.1.1
+    - mpmath>=1.2.1
+    - nbconvert>=6.2.0
+    - nc-time-axis>=1.4.0
+#    - nctoolkit>=0.4.9
+    - ncview>=2.1.7
+    - netcdf-cxx4>=4.3.1
+    - netcdf-fortran>=4.5.3
+    - netcdf4>=1.5.6
+    - nose>=1.3.7
+    # numba required for xesmf 0.6.2 but deps not set up
+    - numba
+    - numpy>=1.21.3
+    - openmpi>=4.1.1
+    - packaging>=21.0
+    - pandas>=1.3.4
+    - parallel>=20211022
+    - partd>=1.2.0
+    - patsy>=0.5.2
+    - pep8>=1.7.1
+    - perl>=5.32.1
+    - perl-xml-parser>=2.44_01
+    - pillow>=8.4.0
+    - pip>=21.3.1
+    - postgresql>=12.3
+    - psutil>=5.8.0
+    - psycopg2>=2.8.6
+    - pyaml>=20.4.0
+    - pybtex>=0.24.0
+    - pycairo>=1.20.1
+    - pycodestyle>=2.8.0
+    - pydap>=3.2.2
+    - pygments>=2.10.0
+    - pygobject>=3.42.0
+    - pygrib>=2.1.4
+    - pyhdf>=0.10.3
+    - pyke>=1.1.1
+    - pylint>=2.11.1
+    - pyparsing>=2.4.7
+    - pyproj>=2.6.1.post1
+    - pyshp>=2.1.3
+    - pyside2>=5.13.2
+    - pysoundfile>=0.10.3.post1
+    - pyspharm>=1.0.9
+    - pytest>=6.2.5
+    #- python>=3.10.4
+    - python>=3.9.9
+    - python-dateutil>=2.8.2
+    - python-eccodes>=1.4.0  ## python-eccodes>=2021.03.0  AMI
+    - python-graphviz>=0.17
+    - pytz>=2021.3
+    - pyugrid>=0.3.1
+    - pyyaml>=6.0
+    - pyzmq>=22.3.0
+    - qt>=5.12.9
+    - requests>=2.26.0
+    - s3transfer>=0.5.0
+    - scikit-image>=0.18.3
+    - scikit-learn>=1.0.1
+    - scipy>=1.7.1
+    - seaborn>=0.11.2
+    - setuptools>=58.2.0
+    - shapely>=1.7.1
+    - singledispatch>=3.7.0
+    - six>=1.16.0
+    - sphinx>=4.2.0
+    - sqlalchemy>=1.4.26
+    - sqlite>=3.36.0
+    - statsmodels>=0.13.0
+    - sympy>=1.9
+    - tcsh>=6.22.04
+    - tk>=8.6.11
+    - tmux>=3.1
+    - toolz>=0.11.1
+    - tornado>=6.1
+    - tqdm>=4.62.3
+    - udunits2>=2.2.27.27
+    - urllib3>=1.26.7
+    - valgrind>=3.17.0
+    - virtualenv>=20.4.7
+    - webob>=1.8.7
+    - windspharm>=1.7.0
+    - wxpython>=4.1.0
+    - xarray>=0.19.0
+    - xesmf>=0.6.1
+    - xorg-libx11>=1.6.12
+    #- pyngl
+
+#    - dask-tensorflow
+#    - keras
+#    - libgcc-ng>=11.2.0
+#    - libgcc>=11.2.0
+#    - mpich
+#    - qgis
+#    - rpy2>=3.4.2
+#    - tensorflow
+#    - tensorflow-estimator
+# removing rpy - will put in Jasr instead
+##: FAIL: mercurial -> python[version='>=2.7,<2.8.0a0']
+##GraphicsMagick-c++
+##python27-cerbere
+#
+# These removed for the time being because of dependence on older versions of C / fortran libraries
+#  - aim to reinstate in a later Jaspy
+#
+#    - theano>=1.0.5
+#    - pymc3>=3.7
+#    - pystan>=2.17.1.0
+#    - pyngl>=1.6.1  ## NOW restored
+#    - pyferret>=7.63
+# 
+# These removed (and put in jasmin-sci) because of problems with gsl dependencies, so are broken.
+# Aim to reinstate in a later jaspy.
+#   
+#    - ncl >= 6.6.2
+#    - nco >= 5.0.7
+#    - nctoolkit (incompatible with CDO 2.0.0 and above)
+#
+# (Note: a later version of nctoolkit, which is compatible with the later CDO, is already available
+# but seems to be incompatible with something else in the environment.)
+#
+# New packages for this release (no previous version, hence no version numbers here,
+# but should be given >= version numbers next time)
+# also oggm pip package below
+
+#Pip installs
+    - pip:
+      - git+https://github.com/cedadev/nappy
+      - bigtiff>=0.1.2
+      - ccplot>=1.5.6
+      - cf-plot>=3.1.16
+      - cf-python>=3.11.0
+      - cfchecker>=4.1.0
+      - ecmwf-api-client>=1.6.1
+      - f90nml>=1.3.1
+      - oggm>=1.5.2
+      - pipenv>=2021.5.29
+      - pygeode>=1.4.0
+      - pypdftk>=0.5
+      - simplejson>=3.17.5
