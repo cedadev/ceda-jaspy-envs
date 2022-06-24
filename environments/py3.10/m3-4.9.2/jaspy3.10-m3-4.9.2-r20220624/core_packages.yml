@@ -229,6 +229,8 @@ dependencies:
     - scandir
     - spectral
     - dask-gateway
+# pooch needed for xarray tests
+    - pooch
 
 #Pip installs
     - pip:
