@@ -183,8 +183,6 @@ dependencies:
     - xarray>=0.19.0
     - xesmf>=0.6.1
     - xorg-libx11>=1.6.12
-    #- pyngl
-
 #    - dask-tensorflow
 #    - keras
 #    - libgcc-ng>=11.2.0
@@ -215,13 +213,21 @@ dependencies:
 #    - nco >= 5.0.7
 #    - nctoolkit (incompatible with CDO 2.0.0 and above)
 #
+# We should at that time also add pynco and remove the equivalent pip package below (called nco).
+#
 # (Note: a later version of nctoolkit, which is compatible with the later CDO, is already available
 # but seems to be incompatible with something else in the environment.)
 #
 # New packages for this release (no previous version, hence no version numbers here,
 # but should be given >= version numbers next time)
 # also oggm pip package below
-
+    - nccmp
+    - binutils
+    - xgcm
+    - xhistogram
+    - aiohttp
+    - scandir
+    
 #Pip installs
     - pip:
       - git+https://github.com/cedadev/nappy
@@ -237,3 +243,5 @@ dependencies:
       - pygeode>=1.4.0
       - pypdftk>=0.5
       - simplejson>=3.17.5
+      # re nco, see above comment re pynco
+      - nco
