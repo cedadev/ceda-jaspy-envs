@@ -227,7 +227,9 @@ dependencies:
     - xhistogram
     - aiohttp
     - scandir
-    
+    - spectral
+    - dask-gateway
+
 #Pip installs
     - pip:
       - git+https://github.com/cedadev/nappy
