@@ -1000,3 +1000,10 @@ dependencies:
     - r-zoo>=1.8_9
     - rpy2>=3.4.5
     - python==3.10.5 # USE LATEST VERSION?
+# new packs
+    - r-maps
+    - r-renv
+    - r-ggplot2
+    - r-sf
+    - r-sfheaders
+    - r-sfsmisc

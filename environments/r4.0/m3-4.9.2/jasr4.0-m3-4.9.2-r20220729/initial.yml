@@ -1,4 +1,4 @@
-name: jasr4.0-m3-4.9.2-r20220729
+name: jasr4.0-m3-4.9.2-r20220729_2
 channels:
   - conda-forge
   - defaults
@@ -882,6 +882,7 @@ dependencies:
   - r-rematch2=2.1.2=r40hc72bb7e_1
   - r-remotes=2.4.2=r40hc72bb7e_0
   - r-rentrez=1.2.3=r40h785f33e_0
+  - r-renv=0.15.5=r40hc72bb7e_0
   - r-repmis=0.5=r40hc72bb7e_1
   - r-repr=1.1.4=r40h785f33e_0
   - r-reprex=2.0.1=r40hc72bb7e_0
@@ -1215,4 +1216,4 @@ dependencies:
     - rpy2==3.5.1
     - setuptools==63.2.0
     - tzlocal==4.2
-prefix: /appx/jasmin/jaspy/miniconda_envs/jaspy3.7/m3-4.9.2/envs/jasr4.0-m3-4.9.2-r20220729
+prefix: /home/users/iwi/.conda/envs/jasr4.0-m3-4.9.2-r20220729_2
