@@ -1,4 +1,4 @@
-name: jasr4.0-m3-4.9.2-r20220729_2
+name: jasr4.0-m3-4.9.2-r20220729_4
 channels:
   - conda-forge
   - defaults
@@ -10,7 +10,6 @@ dependencies:
   - atk-1.0=2.36.0=h3371d22_4
   - binutils_impl_linux-64=2.36.1=h193b22a_2
   - binutils_linux-64=2.36=hf3e587d_10
-  - blas=1.1=openblas
   - blosc=1.21.1=h83bc5f7_3
   - boost-cpp=1.74.0=h6cacc03_7
   - bwidget=1.9.14=ha770c72_1
@@ -23,7 +22,7 @@ dependencies:
   - dbus=1.13.18=hb2f20db_0
   - expat=2.4.8=h27087fc_0
   - ffmpeg=5.0.1=h594f047_0
-  - fftw=3.3.10=nompi_h77c792f_102
+  - fftw=3.3.10=nompi_ha7695d1_103
   - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
   - font-ttf-inconsolata=3.000=h77eed37_0
   - font-ttf-source-code-pro=2.038=h77eed37_0
@@ -31,17 +30,17 @@ dependencies:
   - fontconfig=2.14.0=h8e229c2_0
   - fonts-conda-ecosystem=1=0
   - fonts-conda-forge=1=0
-  - freetype=2.11.0=h70c0345_0
+  - freetype=2.12.1=hca18f0e_0
   - freexl=1.0.6=h7f98852_0
   - fribidi=1.0.10=h516909a_0
-  - gcc_impl_linux-64=10.3.0=hf2f2afa_16
-  - gcc_linux-64=10.3.0=hc39de41_10
+  - gcc_impl_linux-64=10.4.0=h7ee1905_16
+  - gcc_linux-64=10.4.0=h9215b83_10
   - gdk-pixbuf=2.42.8=hff1cb4f_0
-  - geos=3.10.1=h9c3ff4c_1
-  - geotiff=1.7.0=h90a4e78_5
+  - geos=3.10.2=h9c3ff4c_0
+  - geotiff=1.7.0=h6593c0a_6
   - gettext=0.21.0=hf68c758_0
-  - gfortran_impl_linux-64=10.3.0=h73f4979_16
-  - gfortran_linux-64=10.3.0=hb09a455_10
+  - gfortran_impl_linux-64=10.4.0=h44b2e72_16
+  - gfortran_linux-64=10.4.0=h69d5af5_10
   - ghostscript=9.54.0=h27087fc_2
   - giflib=5.2.1=h516909a_2
   - glib=2.72.1=h6239696_0
@@ -50,13 +49,13 @@ dependencies:
   - gnutls=3.6.15=he1e5248_0
   - graphite2=1.3.14=h295c915_1
   - graphviz=3.0.0=h5abf519_1
-  - gsl=2.7.1=h917eeb2_1
+  - gsl=2.7=he838d99_0
   - gtk2=2.24.33=h90689f9_2
   - gts=0.7.6=h64030ff_2
-  - gxx_impl_linux-64=10.3.0=hf2f2afa_16
-  - gxx_linux-64=10.3.0=h2593f52_10
+  - gxx_impl_linux-64=10.4.0=h7ee1905_16
+  - gxx_linux-64=10.4.0=h6e491c6_10
   - harfbuzz=4.2.0=h40b6f09_0
-  - hdf4=4.2.15=h10796ff_3
+  - hdf4=4.2.15=h9772cbc_4
   - hdf5=1.12.1=nompi_h2386368_104
   - icu=69.1=h9c3ff4c_0
   - imagemagick=7.1.0_29=pl5321heb7c40d_0
@@ -76,19 +75,19 @@ dependencies:
   - leptonica=1.82.0=h950d820_0
   - lerc=4.0.0=h27087fc_0
   - libarchive=3.5.2=hccf745f_1
-  - libblas=3.9.0=15_linux64_openblas
-  - libcblas=3.9.0=15_linux64_openblas
+  - libblas=3.9.0=16_linux64_openblas
+  - libcblas=3.9.0=16_linux64_openblas
   - libcurl=7.84.0=h91b91d3_0
   - libdap4=3.20.6=hd7c4107_2
-  - libdeflate=1.12=h166bdaf_0
+  - libdeflate=1.13=h166bdaf_0
   - libdrm=2.4.112=h166bdaf_0
   - libedit=3.1.20210910=h7f8727e_0
   - libev=4.33=h516909a_1
   - libffi=3.4.2=h7f98852_5
-  - libgcc-devel_linux-64=10.3.0=he6cfe16_16
+  - libgcc-devel_linux-64=10.4.0=h74af60c_16
   - libgcc-ng=12.1.0=h8d9b700_16
   - libgd=2.3.3=h283352f_2
-  - libgdal=3.4.0=hed9a671_6
+  - libgdal=3.4.1=h7b6f8d3_2
   - libgfortran-ng=12.1.0=h69a702a_16
   - libgfortran5=12.1.0=hdcd56e2_16
   - libgit2=1.3.0=hee63804_1
@@ -98,36 +97,37 @@ dependencies:
   - libiconv=1.16=h516909a_0
   - libidn2=2.3.3=h166bdaf_0
   - libkml=1.3.0=h238a007_1014
-  - liblapack=3.9.0=15_linux64_openblas
+  - liblapack=3.9.0=16_linux64_openblas
   - libnetcdf=4.8.1=nompi_h329d8a1_102
-  - libnghttp2=1.47.0=h727a467_0
+  - libnghttp2=1.47.0=hdcd2b5c_1
   - libnsl=2.0.0=h7f98852_0
-  - libopenblas=0.3.20=pthreads_h78a6416_1
+  - libopenblas=0.3.21=pthreads_h78a6416_1
   - libpciaccess=0.16=h516909a_0
-  - libpng=1.6.37=h753d276_3
-  - libpq=13.5=hd57d9b9_1
-  - libprotobuf=3.20.1=h6239696_0
+  - libpng=1.6.37=h753d276_4
+  - libpq=14.2=hd57d9b9_0
+  - libprotobuf=3.20.1=h6239696_1
   - librsvg=2.52.5=h0a9e6e8_3
-  - librttopo=1.1.0=h30b5eef_8
-  - libsanitizer=10.3.0=h26c7422_16
+  - librttopo=1.1.0=hf69c175_9
+  - libsanitizer=10.4.0=hde28e3b_16
   - libsodium=1.0.18=h516909a_1
-  - libspatialite=5.0.1=hf3ee066_12
-  - libssh2=1.10.0=ha56f1ee_2
-  - libstdcxx-devel_linux-64=10.3.0=he6cfe16_16
+  - libspatialite=5.0.1=h0e567f8_14
+  - libsqlite=3.39.2=h753d276_1
+  - libssh2=1.10.0=haa6b8db_3
+  - libstdcxx-devel_linux-64=10.4.0=h74af60c_16
   - libstdcxx-ng=12.1.0=ha89aaad_16
   - libtasn1=4.18.0=h166bdaf_1
-  - libtiff=4.4.0=h0d92c0b_2
+  - libtiff=4.4.0=h0e0dad5_3
   - libtool=2.4.6=h9c3ff4c_1008
   - libunistring=0.9.10=h14c3975_0
   - libuuid=2.32.1=h14c3975_1000
   - libv8=8.9.83=h2b988ae_1
   - libva=2.15.0=h166bdaf_0
   - libvpx=1.11.0=h9c3ff4c_3
-  - libwebp=1.2.3=h522a892_1
-  - libwebp-base=1.2.3=h166bdaf_2
+  - libwebp=1.2.4=h522a892_0
+  - libwebp-base=1.2.4=h166bdaf_0
   - libxcb=1.13=h7f98852_1004
   - libxml2=2.9.12=h885dcf4_1
-  - libzip=1.9.2=hc869a4a_0
+  - libzip=1.9.2=hc869a4a_1
   - libzlib=1.2.12=h166bdaf_2
   - lz4-c=1.9.3=h9c3ff4c_1
   - lzo=2.10=h516909a_1000
@@ -140,30 +140,29 @@ dependencies:
   - nspr=4.33=h295c915_0
   - nss=3.78=h2350873_0
   - oniguruma=6.9.8=h166bdaf_0
-  - openblas=0.3.20=pthreads_h320a7e8_1
   - openh264=2.1.1=h780b84a_0
   - openjdk=11.0.13=h87a67e3_0
   - openjpeg=2.4.0=hb52868f_1
   - openssl=1.1.1q=h166bdaf_0
-  - pandoc=2.18=ha770c72_0
+  - pandoc=2.19=ha770c72_0
   - pango=1.50.7=hbd2fdc8_0
   - pcre=8.45=h9c3ff4c_0
-  - pcre2=10.37=h032f7d1_0
+  - pcre2=10.37=hc3806b6_1
   - perl=5.32.1=2_h7f98852_perl5
   - phantomjs=2.1.1=1
-  - pip=22.2.1=pyhd8ed1ab_0
+  - pip=22.2.2=pyhd8ed1ab_0
   - pixman=0.40.0=h36c2ea0_0
   - pkg-config=0.29.2=h516909a_1008
   - poppler=21.11.0=ha39eefc_0
   - poppler-data=0.4.11=hd8ed1ab_0
-  - postgresql=13.5=h2510834_1
-  - proj=8.2.0=h277dcde_0
+  - postgresql=14.2=h2510834_0
+  - proj=8.2.1=h277dcde_0
   - pthread-stubs=0.4=h36c2ea0_1001
   - pycparser=2.21=pyhd8ed1ab_0
   - python=3.10.5=h582c2e5_0_cpython
-  - python-tzdata=2022.1=pyhd8ed1ab_0
+  - python-tzdata=2022.2=pyhd8ed1ab_0
   - python_abi=3.10=2_cp310
-  - pytz=2022.1=pyhd8ed1ab_0
+  - pytz=2022.2.1=pyhd8ed1ab_0
   - r-abind=1.4_5=r40hc72bb7e_1003
   - r-acepack=1.4.1=r40h859d828_1006
   - r-ade4=1.7_19=r40h0154571_0
@@ -180,6 +179,7 @@ dependencies:
   - r-algdesign=1.2.1=r40h06615bd_0
   - r-animation=2.7=r40hc72bb7e_0
   - r-antiword=1.3.1=r40h06615bd_0
+  - r-anytime=0.3.9=r40h0357c0b_0
   - r-apatables=2.0.8=r40hc72bb7e_0
   - r-ape=5.6_2=r40h43535f1_0
   - r-aplpack=1.3.5=r40hc72bb7e_0
@@ -216,7 +216,7 @@ dependencies:
   - r-bayestestr=0.12.1=r40hc72bb7e_0
   - r-bbmisc=1.12=r40h06615bd_0
   - r-bbmle=1.0.25=r40hc72bb7e_0
-  - r-bdgraph=2.67=r40h7525677_0
+  - r-bdgraph=2.68=r40h7525677_0
   - r-bdsmatrix=1.3_6=r40h06615bd_0
   - r-beepr=1.3=r40hc72bb7e_0
   - r-bestglm=0.37.3=r40hcfec24a_1
@@ -238,7 +238,7 @@ dependencies:
   - r-blob=1.2.3=r40hc72bb7e_0
   - r-bmp=0.3=r40hc72bb7e_1003
   - r-bold=1.2.0=r40h785f33e_0
-  - r-bookdown=0.27=r40hc72bb7e_0
+  - r-bookdown=0.28=r40hc72bb7e_0
   - r-bookdownplus=1.5.8=r40hc72bb7e_1
   - r-boot=1.3_28=r40hc72bb7e_0
   - r-bradleyterry2=1.1_2=r40hc72bb7e_1
@@ -257,17 +257,17 @@ dependencies:
   - r-bwstest=0.2.2=r40h0357c0b_1003
   - r-ca=0.71.1=r40hc72bb7e_1
   - r-cachem=1.0.6=r40hcfec24a_0
-  - r-cairo=1.6_0=r40h06615bd_0
+  - r-cairo=1.5_12.2=r40hcfec24a_0
   - r-callr=3.7.1=r40hc72bb7e_0
   - r-caper=1.0.1=r40hc72bb7e_1002
   - r-captioner=2.2.3=r40hc72bb7e_1004
   - r-car=3.1_0=r40hc72bb7e_0
   - r-cardata=3.0_5=r40hc72bb7e_0
-  - r-caret=6.0_92=r40h06615bd_0
+  - r-caret=6.0_93=r40h06615bd_0
   - r-catdata=1.2.2=r40hc72bb7e_0
   - r-catools=1.18.2=r40h7525677_0
   - r-cellranger=1.1.0=r40hc72bb7e_1004
-  - r-censusapi=0.7.1=r40hc72bb7e_0
+  - r-censusapi=0.8.0=r40hc72bb7e_0
   - r-checkmate=2.1.0=r40h06615bd_0
   - r-chron=2.3_57=r40h06615bd_0
   - r-circlize=0.4.15=r40hc72bb7e_0
@@ -296,10 +296,11 @@ dependencies:
   - r-compare=0.2_6=r40hc72bb7e_2
   - r-concaveman=1.1.0=r40hc72bb7e_0
   - r-conditionz=0.1.0=r40hc72bb7e_1
+  - r-confintr=0.1.2=r40hc72bb7e_0
   - r-conquer=1.3.0=r40hcec875b_0
   - r-contfrac=1.1_12=r40hcfec24a_1002
   - r-corpcor=1.6.10=r40hc72bb7e_0
-  - r-correlation=0.8.1=r40hc72bb7e_0
+  - r-correlation=0.8.2=r40hc72bb7e_0
   - r-corrgram=1.14=r40hc72bb7e_0
   - r-corrplot=0.92=r40hc72bb7e_0
   - r-countrycode=1.4.0=r40hc72bb7e_0
@@ -310,7 +311,7 @@ dependencies:
   - r-credentials=1.3.2=r40hc72bb7e_0
   - r-crosstalk=1.2.0=r40hc72bb7e_0
   - r-crul=1.2.0=r40h785f33e_0
-  - r-cubature=2.0.4.4=r40h7525677_0
+  - r-cubature=2.0.4.5=r40h7525677_0
   - r-cubelyr=1.0.1=r40hc72bb7e_0
   - r-cubist=0.4.0=r40hcfec24a_0
   - r-curl=4.3.2=r40hcfec24a_0
@@ -318,7 +319,7 @@ dependencies:
   - r-data.table=1.14.2=r40hcfec24a_0
   - r-data.tree=1.0.0=r40_0
   - r-datamods=1.3.3=r40hc72bb7e_0
-  - r-datawizard=0.4.1=r40hc72bb7e_0
+  - r-datawizard=0.5.0=r40hc72bb7e_0
   - r-dbi=1.1.3=r40hc72bb7e_0
   - r-dbplyr=2.2.1=r40hc72bb7e_0
   - r-debugme=1.1.0=r40hc72bb7e_1003
@@ -349,14 +350,14 @@ dependencies:
   - r-downloader=0.4=r40hc72bb7e_1003
   - r-dplyr=1.0.9=r40h7525677_0
   - r-drc=3.0_1=r40_1003
-  - r-dt=0.23=r40hc72bb7e_0
+  - r-dt=0.24=r40hc72bb7e_0
   - r-dtplyr=1.2.1=r40hc72bb7e_0
   - r-dunn.test=1.3.5=r40hc72bb7e_1003
   - r-dygraphs=1.1.1.6=r40hc72bb7e_1003
   - r-e1071=1.7_11=r40h7525677_0
   - r-ecodist=2.0.9=r40h06615bd_0
   - r-effects=4.2_2=r40hc72bb7e_0
-  - r-effectsize=0.7.0=r40hc72bb7e_0
+  - r-effectsize=0.7.0.5=r40hc72bb7e_0
   - r-effsize=0.8.1=r40hc72bb7e_0
   - r-egg=0.4.5=r40hc72bb7e_2
   - r-eigenmodel=1.11=r40hc72bb7e_0
@@ -370,14 +371,14 @@ dependencies:
   - r-envstats=2.7.0=r40ha770c72_0
   - r-epi=2.47=r40h06615bd_0
   - r-esquisse=1.1.1=r40hc72bb7e_0
-  - r-estimability=1.4=r40hc72bb7e_0
+  - r-estimability=1.4.1=r40hc72bb7e_0
   - r-estimatr=1.0.0=r40h7525677_0
   - r-etm=1.1.1=r40hc8faad4_0
-  - r-evaluate=0.15=r40hc72bb7e_0
+  - r-evaluate=0.16=r40hc72bb7e_0
   - r-exact=3.1=r40hc72bb7e_0
   - r-exact2x2=1.6.6=r40hc72bb7e_0
   - r-exactci=1.4_2=r40hc72bb7e_0
-  - r-exactextractr=0.7.2=r40hdbf11d9_2
+  - r-exactextractr=0.8.2=r40h33477b1_0
   - r-exactranktests=0.8_35=r40h06615bd_0
   - r-expm=0.999_6=r40h52d45c5_0
   - r-expsmooth=2.3=r40hc72bb7e_1002
@@ -394,20 +395,20 @@ dependencies:
   - r-fastica=1.2_3=r40he454529_0
   - r-fastmap=1.1.0=r40h03ef668_0
   - r-fastmatch=1.1_3=r40hcfec24a_0
-  - r-fastmatrix=0.4_12=r40hb361e29_0
+  - r-fastmatrix=0.4_124=r40hb361e29_0
   - r-fasttime=1.1_0=r40h06615bd_0
-  - r-fbasics=3042.89.2=r40h06615bd_0
+  - r-fbasics=4021.92=r40h06615bd_0
   - r-fd=1.0_12.1=r40h8da6f51_0
   - r-fdrtool=1.2.17=r40hcfec24a_0
   - r-ff=4.0.7=r40h27087fc_0
   - r-ffbase=0.13.3=r40hcfec24a_0
-  - r-fields=14.0=r40h8da6f51_0
+  - r-fields=14.1=r40h8da6f51_0
   - r-filehash=2.4_3=r40h166bdaf_0
   - r-fit.models=0.64=r40hc72bb7e_0
   - r-fitdistrplus=1.1_8=r40hc72bb7e_0
   - r-flashclust=1.01_2=r40h859d828_1006
   - r-flexmix=2.3_18=r40hc72bb7e_0
-  - r-flextable=0.7.2=r40hc72bb7e_0
+  - r-flextable=0.7.3=r40hc72bb7e_0
   - r-fma=2.4=r40hc72bb7e_1
   - r-fnn=1.1.3.1=r40h7525677_0
   - r-fontawesome=0.3.0=r40hc72bb7e_0
@@ -416,7 +417,7 @@ dependencies:
   - r-fontquiver=0.2.1=r40hc72bb7e_1003
   - r-forcats=0.5.1=r40hc72bb7e_0
   - r-foreach=1.5.2=r40hc72bb7e_0
-  - r-forecast=8.16=r40hcec875b_0
+  - r-forecast=8.17.0=r40h37cf8d7_0
   - r-foreign=0.8_82=r40hcfec24a_0
   - r-formatr=1.12=r40hc72bb7e_0
   - r-formula=1.2_4=r40hc72bb7e_0
@@ -425,7 +426,7 @@ dependencies:
   - r-freetypeharfbuzz=0.2.6=r40hcfec24a_0
   - r-fs=1.5.2=r40h7525677_1
   - r-funrar=1.4.1=r40hc72bb7e_1
-  - r-furrr=0.3.0=r40hc72bb7e_0
+  - r-furrr=0.3.1=r40hc72bb7e_0
   - r-futile.logger=1.4.3=r40hc72bb7e_1003
   - r-futile.options=1.0.1=r40hc72bb7e_1002
   - r-future=1.27.0=r40hc72bb7e_0
@@ -441,7 +442,7 @@ dependencies:
   - r-gapminder=0.3.0=r40hc72bb7e_1002
   - r-gargle=1.2.0=r40hc72bb7e_0
   - r-gaston=1.5.7=r40h8380222_0
-  - r-gbm=2.1.8=r40h0357c0b_0
+  - r-gbm=2.1.8.1=r40h7525677_0
   - r-gclus=1.3.2=r40hc72bb7e_2
   - r-gdalutils=2.0.3.2=r40hc72bb7e_1
   - r-gdata=2.18.0.1=r40hc72bb7e_0
@@ -465,7 +466,7 @@ dependencies:
   - r-gganimate=1.0.7=r40hc72bb7e_0
   - r-ggcorrplot=0.1.3=r40hc72bb7e_2
   - r-ggdendro=0.1.23=r40hc72bb7e_0
-  - r-ggeffects=1.1.2=r40hc72bb7e_0
+  - r-ggeffects=1.1.3=r40hc72bb7e_0
   - r-ggextra=0.10.0=r40hc72bb7e_0
   - r-ggforce=0.3.3=r40h7525677_0
   - r-gghighlight=0.3.3=r40hc72bb7e_0
@@ -475,17 +476,17 @@ dependencies:
   - r-ggnewscale=0.4.7=r40hc72bb7e_0
   - r-ggplot2=3.3.6=r40hc72bb7e_0
   - r-ggplotify=0.1.0=r40hc72bb7e_0
-  - r-ggpmisc=0.4.7=r40hc72bb7e_0
+  - r-ggpmisc=0.5.0=r40hc72bb7e_0
   - r-ggpp=0.4.4=r40hc72bb7e_0
   - r-ggpubr=0.4.0=r40hc72bb7e_0
-  - r-ggraph=2.0.5=r40h03ef668_0
+  - r-ggraph=2.0.6=r40h7525677_0
   - r-ggrepel=0.9.1=r40h03ef668_0
   - r-ggridges=0.5.3=r40hc72bb7e_0
   - r-ggsci=2.9=r40hc72bb7e_1003
   - r-ggsignif=0.6.3=r40hc72bb7e_0
   - r-ggsn=0.5.0=r40hc72bb7e_2
   - r-ggstance=0.3.5=r40hc72bb7e_0
-  - r-ggstatsplot=0.9.3=r40hc72bb7e_0
+  - r-ggstatsplot=0.9.4=r40hc72bb7e_0
   - r-ggtext=0.1.1=r40hc72bb7e_0
   - r-ggthemes=4.2.4=r40hc72bb7e_0
   - r-gh=1.3.0=r40hc72bb7e_0
@@ -497,21 +498,21 @@ dependencies:
   - r-glmmtmb=1.1.4=r40h7525677_0
   - r-glmnet=4.1_2=r40h859d828_0
   - r-globaloptions=0.1.2=r40_0
-  - r-globals=0.15.1=r40hc72bb7e_0
+  - r-globals=0.16.0=r40hc72bb7e_0
   - r-glue=1.6.2=r40h06615bd_0
   - r-gmodels=2.18.1.1=r40ha770c72_0
-  - r-gmp=0.6_5=r40h7525677_0
+  - r-gmp=0.6_6=r40h7525677_0
   - r-gnm=1.1_2=r40h06615bd_0
   - r-goeveg=0.5.1=r40hc72bb7e_0
   - r-goftest=1.2_3=r40hcfec24a_0
   - r-googledrive=2.0.0=r40hc72bb7e_0
   - r-googlepolylines=0.8.2=r40h03ef668_0
-  - r-googlesheets4=1.0.0=r40h785f33e_0
+  - r-googlesheets4=1.0.1=r40h785f33e_0
   - r-googlevis=0.7.0=r40hc72bb7e_0
   - r-gower=1.0.0=r40hcfec24a_0
   - r-gparotation=2022.4_1=r40hc72bb7e_0
   - r-gplots=3.1.3=r40hc72bb7e_0
-  - r-graphlayouts=0.8.0=r40h03ef668_0
+  - r-graphlayouts=0.8.1=r40h7525677_0
   - r-gridbase=0.4_7=r40hc72bb7e_1003
   - r-gridextra=2.3=r40hc72bb7e_1003
   - r-gridgraphics=0.5_1=r40hc72bb7e_0
@@ -538,7 +539,7 @@ dependencies:
   - r-hexbin=1.28.2=r40h859d828_0
   - r-hierfstat=0.5_11=r40hc72bb7e_0
   - r-highr=0.9=r40hc72bb7e_0
-  - r-hmisc=4.7_0=r40h8da6f51_0
+  - r-hmisc=4.7_1=r40h8da6f51_0
   - r-hms=1.1.1=r40hc72bb7e_0
   - r-hmsc=3.0_11=r40hc72bb7e_0
   - r-hrbrthemes=0.8.0=r40hc72bb7e_1
@@ -557,7 +558,7 @@ dependencies:
   - r-influencer=0.1.0.1=r40hcfec24a_0
   - r-ini=0.3.1=r40hc72bb7e_1003
   - r-inline=0.3.19=r40hc72bb7e_0
-  - r-insight=0.18.0=r40hc72bb7e_0
+  - r-insight=0.18.2=r40hc72bb7e_0
   - r-interp=1.1_3=r40h7525677_0
   - r-intervals=0.15.2=r40h0357c0b_1
   - r-inum=1.0_4=r40hc72bb7e_0
@@ -631,7 +632,7 @@ dependencies:
   - r-lpsolve=5.6.15=r40hcfec24a_1
   - r-lsei=1.3_0=r40hc3ea6d6_1
   - r-lubridate=1.8.0=r40h03ef668_0
-  - r-lwgeom=0.2_8=r40ha12e8df_1
+  - r-lwgeom=0.2_8=r40h82426c8_2
   - r-magic=1.6_0=r40hc72bb7e_0
   - r-magick=2.7.3=r40h03ef668_0
   - r-magrittr=2.0.3=r40h06615bd_0
@@ -645,7 +646,7 @@ dependencies:
   - r-mapview=2.11.0=r40hc72bb7e_0
   - r-margins=0.3.26=r40hc72bb7e_0
   - r-markdown=1.1=r40hcfec24a_1
-  - r-mass=7.3_58=r40h06615bd_0
+  - r-mass=7.3_58.1=r40h06615bd_0
   - r-mathjaxr=1.6_0=r40hc72bb7e_0
   - r-matlib=0.9.5=r40hc72bb7e_0
   - r-matrix=1.4_1=r40h0154571_0
@@ -675,7 +676,7 @@ dependencies:
   - r-microbenchmark=1.4.9=r40hcfec24a_0
   - r-mime=0.12=r40hcfec24a_0
   - r-miniui=0.1.1.1=r40hc72bb7e_1002
-  - r-minpack.lm=1.2_2=r40h1463581_0
+  - r-minpack.lm=1.2_2=r40hd009a43_0
   - r-minqa=1.2.4=r40h228a9c8_1006
   - r-misc3d=0.9_1=r40ha770c72_0
   - r-mitml=0.4_3=r40hc72bb7e_0
@@ -689,7 +690,7 @@ dependencies:
   - r-modeltools=0.2_23=r40hc72bb7e_1
   - r-moments=0.14.1=r40hc72bb7e_0
   - r-moonbook=0.3.1=r40hc72bb7e_0
-  - r-multcomp=1.4_19=r40hc72bb7e_0
+  - r-multcomp=1.4_20=r40hc72bb7e_0
   - r-multcompview=0.1_8=r40hc72bb7e_1
   - r-multicool=0.1_12=r40h03ef668_0
   - r-mumin=1.46.0=r40hc72bb7e_0
@@ -708,8 +709,8 @@ dependencies:
   - r-networkd3=0.4=r40hc72bb7e_1004
   - r-neuralnet=1.44.2=r40hc72bb7e_2
   - r-nimble=0.12.2=r40he9dea17_0
-  - r-nleqslv=3.3.2=r40h859d828_1006
-  - r-nlme=3.1_158=r40h8da6f51_0
+  - r-nleqslv=3.3.3=r40h8da6f51_0
+  - r-nlme=3.1_159=r40h8da6f51_0
   - r-nloptr=2.0.3=r40hb13c81a_0
   - r-nlp=0.2_1=r40hc72bb7e_0
   - r-nmf=0.21.0=r40h0357c0b_1004
@@ -728,19 +729,20 @@ dependencies:
   - r-openmx=2.20.6=r40hb13c81a_0
   - r-openssl=2.0.2=r40hfaab4ff_0
   - r-openxlsx=4.2.5=r40h03ef668_0
+  - r-optimx=2022_4.30=r40hc72bb7e_0
   - r-ordinal=2019.12_10=r40hcfec24a_1
   - r-ore=1.7.1.1=r40hcfec24a_0
   - r-orthopolynom=1.0_6=r40hc72bb7e_0
   - r-packrat=0.8.1=r40hc72bb7e_0
   - r-pairwisecomparisons=3.2.0=r40hc72bb7e_0
-  - r-paletteer=1.4.0=r40hc72bb7e_0
+  - r-paletteer=1.4.1=r40hc72bb7e_0
   - r-palr=0.3.0=r40hc72bb7e_0
   - r-pals=1.7=r40hc72bb7e_0
   - r-pamr=1.56.1=r40h859d828_4
   - r-pan=1.6=r40h859d828_4
   - r-pander=0.6.5=r40h7525677_0
   - r-parallelly=1.32.1=r40hc72bb7e_0
-  - r-parameters=0.18.1=r40hc72bb7e_0
+  - r-parameters=0.18.2=r40hc72bb7e_0
   - r-parcor=0.2_6=r40hc72bb7e_1002
   - r-parsedate=1.3.0=r40hcfec24a_0
   - r-party=1.3_10=r40h166bdaf_0
@@ -757,7 +759,7 @@ dependencies:
   - r-pdftools=3.0.1=r40he780b1f_4
   - r-pdist=1.2.1=r40h06615bd_0
   - r-pegas=1.1=r40hcfec24a_0
-  - r-performance=0.9.1=r40hc72bb7e_0
+  - r-performance=0.9.2=r40hc72bb7e_0
   - r-permute=0.9_7=r40hc72bb7e_0
   - r-phangorn=2.7.1=r40h6dc32e9_0
   - r-phosphoricons=0.1.2=r40hc72bb7e_0
@@ -792,7 +794,7 @@ dependencies:
   - r-polyclip=1.10_0=r40h7525677_2
   - r-polynom=1.4_1=r40hc72bb7e_0
   - r-pool=0.1.6=r40hc72bb7e_0
-  - r-posterior=1.2.2=r40hc72bb7e_0
+  - r-posterior=1.3.0=r40hc72bb7e_0
   - r-powerlaw=0.70.6=r40hc72bb7e_1
   - r-ppcor=1.1=r40_1003
   - r-ppls=1.6_1.1=r40hc72bb7e_1002
@@ -803,7 +805,7 @@ dependencies:
   - r-presenceabsence=1.1.10=r40hc72bb7e_0
   - r-prettymapr=0.2.4=r40hc72bb7e_0
   - r-prettyunits=1.1.1=r40hc72bb7e_1
-  - r-prismatic=1.1.0=r40hc72bb7e_0
+  - r-prismatic=1.1.1=r40hc72bb7e_0
   - r-proc=1.18.0=r40h03ef668_0
   - r-processx=3.7.0=r40h06615bd_0
   - r-prodlim=2019.11.13=r40h0357c0b_1
@@ -846,7 +848,7 @@ dependencies:
   - r-rann=2.6.1=r40h7525677_2
   - r-rapidjsonr=1.2.0=r40hc72bb7e_1
   - r-rappdirs=0.3.3=r40hcfec24a_0
-  - r-raster=3.5_15=r40h03ef668_0
+  - r-raster=3.5_21=r40h7525677_0
   - r-rastervis=0.51.2=r40hc72bb7e_0
   - r-ratelimitr=0.4.1=r40hc72bb7e_0
   - r-rayimage=0.6.2=r40h03ef668_0
@@ -865,7 +867,7 @@ dependencies:
   - r-rcpproll=0.3.0=r40h0357c0b_1002
   - r-rcppthread=2.1.3=r40h7525677_0
   - r-rcppziggurat=0.1.6=r40h6dc32e9_1
-  - r-rcurl=1.98_1.7=r40h06615bd_0
+  - r-rcurl=1.98_1.8=r40h06615bd_0
   - r-rdrop2=0.8.2.1=r40hc72bb7e_0
   - r-reactable=0.3.0=r40hc72bb7e_0
   - r-reactr=0.4.4=r40hc72bb7e_0
@@ -892,8 +894,8 @@ dependencies:
   - r-rfast=2.0.6=r40h306847c_0
   - r-rfutilities=2.1_5=r40hc72bb7e_1
   - r-rgbif=3.7.2=r40hc72bb7e_0
-  - r-rgdal=1.5_23=r40hc9bcf78_6
-  - r-rgeos=0.5_9=r40h30b5eef_0
+  - r-rgdal=1.5_28=r40h29735a1_0
+  - r-rgeos=0.5_9=r40hf69c175_1
   - r-rgexf=0.16.2=r40hc72bb7e_0
   - r-rgl=0.109.6=r40hdf945b4_0
   - r-rgooglemaps=1.4.5.3=r40hc72bb7e_1
@@ -908,7 +910,7 @@ dependencies:
   - r-rle=0.9.2=r40hcfec24a_0
   - r-rlrsim=3.1_8=r40h7525677_0
   - r-rmapshaper=0.4.6=r40hc72bb7e_0
-  - r-rmarkdown=2.14=r40hc72bb7e_0
+  - r-rmarkdown=2.15=r40hc72bb7e_0
   - r-rmdpartials=0.5.8=r40hc72bb7e_0
   - r-rmisc=1.5.1=r40hc72bb7e_0
   - r-rmpfr=0.8_9=r40hd6e980e_0
@@ -934,9 +936,8 @@ dependencies:
   - r-rpart=4.1.16=r40hcfec24a_0
   - r-rpart.plot=3.1.1=r40hc72bb7e_0
   - r-rpf=1.0.11=r40h03ef668_0
-  - r-rpostgresql=0.7_3=r40hcfec24a_0
   - r-rprojroot=2.0.3=r40hc72bb7e_0
-  - r-rrcov=1.7_0=r40h1463581_0
+  - r-rrcov=1.7_1=r40hd009a43_0
   - r-rredlist=0.7.0=r40hc72bb7e_0
   - r-rsaga=1.3.0=r40_2
   - r-rsconnect=0.8.27=r40hc72bb7e_0
@@ -977,7 +978,7 @@ dependencies:
   - r-seriation=1.3.6=r40h8da6f51_0
   - r-servr=0.24=r40hc72bb7e_0
   - r-sessioninfo=1.2.2=r40hc72bb7e_0
-  - r-sf=1.0_5=r40h496acd2_0
+  - r-sf=1.0_6=r40h7edceaa_0
   - r-sfheaders=0.4.0=r40h03ef668_0
   - r-sfsmisc=1.1_13=r40hc72bb7e_0
   - r-sgeostat=1.0_27=r40h859d828_1006
@@ -994,16 +995,16 @@ dependencies:
   - r-shinystan=2.6.0=r40hc72bb7e_0
   - r-shinytest=1.5.1=r40hc72bb7e_0
   - r-shinythemes=1.2.0=r40hc72bb7e_0
-  - r-shinywidgets=0.7.1=r40hc72bb7e_0
+  - r-shinywidgets=0.7.2=r40hc72bb7e_0
   - r-showimage=1.0.0=r40hc72bb7e_1002
   - r-signal=0.7_7=r40h859d828_1
   - r-sjlabelled=1.2.0=r40hc72bb7e_0
   - r-sjmisc=2.8.9=r40hc72bb7e_0
-  - r-sjplot=2.8.10=r40hc72bb7e_0
+  - r-sjplot=2.8.11=r40hc72bb7e_0
   - r-sjstats=0.18.1=r40hc72bb7e_0
   - r-skimr=2.1.4=r40hc72bb7e_0
   - r-slam=0.1_50=r40hb699f27_1
-  - r-sn=2.0.2=r40hc72bb7e_0
+  - r-sn=2.1.0=r40hc72bb7e_0
   - r-sna=2.7=r40h06615bd_0
   - r-snakecase=0.11.0=r40hc72bb7e_2
   - r-snow=0.4_4=r40hc72bb7e_0
@@ -1014,7 +1015,7 @@ dependencies:
   - r-sourcetools=0.1.7=r40he1b5a44_1002
   - r-sp=1.5_0=r40h06615bd_0
   - r-spacetime=1.2_8=r40hc72bb7e_0
-  - r-spam=2.9_0=r40hb361e29_0
+  - r-spam=2.9_1=r40hb361e29_0
   - r-sparsem=1.81=r40h859d828_0
   - r-spatial=7.3_15=r40hcfec24a_0
   - r-spatialeco=1.3_7=r40hc72bb7e_0
@@ -1029,7 +1030,7 @@ dependencies:
   - r-spatstat.sparse=2.1_1=r40h06615bd_0
   - r-spatstat.utils=2.3_1=r40h06615bd_0
   - r-spdata=2.0.1=r40hc72bb7e_0
-  - r-spdep=1.2_4=r40h06615bd_0
+  - r-spdep=1.2_5=r40h06615bd_0
   - r-speedglm=0.3_4=r40hc72bb7e_0
   - r-splancs=2.01_43=r40h8da6f51_0
   - r-spls=2.2_3=r40hc72bb7e_2
@@ -1043,9 +1044,9 @@ dependencies:
   - r-stanheaders=2.21.0_7=r40h5ee154c_0
   - r-stargazer=5.2.3=r40hc72bb7e_0
   - r-stars=0.5_5=r40hc72bb7e_0
-  - r-statmod=1.4.36=r40h92ddd45_0
+  - r-statmod=1.4.37=r40hc3ea6d6_0
   - r-statnet.common=4.6.0=r40h06615bd_0
-  - r-statsexpressions=1.3.2=r40hc72bb7e_0
+  - r-statsexpressions=1.3.3=r40hc72bb7e_0
   - r-stringdist=0.9.8=r40hcfec24a_1
   - r-stringi=1.7.6=r40h337692f_1
   - r-stringr=1.4.0=r40hc72bb7e_2
@@ -1057,7 +1058,7 @@ dependencies:
   - r-superpc=1.12=r40hc72bb7e_0
   - r-suppdists=1.1_9.7=r40h7525677_0
   - r-survey=4.1_1=r40hc72bb7e_0
-  - r-survival=3.3_1=r40h06615bd_0
+  - r-survival=3.4_0=r40h06615bd_0
   - r-survminer=0.4.9=r40hc72bb7e_0
   - r-survmisc=0.5.6=r40hc72bb7e_0
   - r-svglite=2.1.0=r40h03ef668_0
@@ -1071,7 +1072,7 @@ dependencies:
   - r-teachingdemos=2.12=r40hc72bb7e_1
   - r-tensor=1.5=r40hc72bb7e_1003
   - r-tensora=0.36.2=r40hcfec24a_0
-  - r-terra=1.4_22=r40h8f6ef0b_2
+  - r-terra=1.5_21=r40hd904c4b_0
   - r-terrainmeshr=0.1.0=r40h03ef668_0
   - r-tesseract=5.1.0=r40h7525677_0
   - r-testthat=3.1.4=r40h7525677_0
@@ -1089,12 +1090,12 @@ dependencies:
   - r-tiff=0.1_11=r40hcfec24a_0
   - r-timedate=4021.104=r40hc72bb7e_0
   - r-timeseries=4021.104=r40ha770c72_0
-  - r-tinytex=0.40=r40hc72bb7e_0
+  - r-tinytex=0.41=r40hc72bb7e_0
   - r-tkrplot=0.0_26=r40hcfec24a_0
   - r-tm=0.7_8=r40he524a50_0
   - r-tmap=3.3_3=r40hc72bb7e_0
   - r-tmaptools=3.1_1=r40hc72bb7e_0
-  - r-tmb=1.9.0=r40h9f5de39_0
+  - r-tmb=1.9.1=r40h9f5de39_0
   - r-tmvnsim=1.0_2=r40h859d828_3
   - r-tree=1.0_42=r40h06615bd_0
   - r-triebeard=0.3.0=r40h7525677_1004
@@ -1105,7 +1106,7 @@ dependencies:
   - r-tsoutliers=0.6_8=r40hc72bb7e_2
   - r-tsp=1.2_1=r40h06615bd_0
   - r-ttr=0.24.3=r40hcfec24a_0
-  - r-tweedie=2.3.3=r40h859d828_0
+  - r-tweedie=2.3.5=r40h8da6f51_0
   - r-tweenr=1.0.2=r40h7525677_0
   - r-tzdb=0.3.0=r40h7525677_0
   - r-ucminf=1.1_4=r40h859d828_1006
@@ -1121,7 +1122,7 @@ dependencies:
   - r-usethis=2.1.6=r40hc72bb7e_0
   - r-utf8=1.2.2=r40hcfec24a_0
   - r-uuid=1.1_0=r40h06615bd_0
-  - r-v8=4.2.0=r40h8c82413_0
+  - r-v8=4.2.1=r40h8c82413_0
   - r-varhandle=2.0.5=r40hc72bb7e_1
   - r-vcd=1.4_10=r40hc72bb7e_0
   - r-vcdextra=0.8_0=r40hc72bb7e_0
@@ -1155,8 +1156,8 @@ dependencies:
   - r-worrms=0.4.2=r40h6115d3f_0
   - r-writexl=1.4.0=r40hcfec24a_0
   - r-wrs2=1.1_4=r40hc72bb7e_0
-  - r-xaringan=0.25=r40hc72bb7e_0
-  - r-xfun=0.31=r40h7525677_0
+  - r-xaringan=0.26=r40hc72bb7e_0
+  - r-xfun=0.32=r40h7525677_0
   - r-xlsx=0.6.5=r40hc72bb7e_0
   - r-xlsxjars=0.6.1=r40hc72bb7e_3
   - r-xml=3.99_0.9=r40h06615bd_0
@@ -1176,17 +1177,17 @@ dependencies:
   - sed=4.8=he412f7d_0
   - simplegeneric=0.8.1=py_1
   - snappy=1.1.9=hbd366e4_1
-  - sqlite=3.39.2=h4ff8645_0
+  - sqlite=3.39.2=h4ff8645_1
   - svt-av1=0.9.1=h27087fc_0
   - sysroot_linux-64=2.12=he073ed8_15
   - tesseract=5.0.1=h84e3e21_0
-  - tiledb=2.3.4=he87e0bf_0
+  - tiledb=2.6.4=h1e4a385_0
   - tk=8.6.12=h27826a3_0
   - tktable=2.10=hb7b940f_3
-  - tzcode=2022a=h166bdaf_0
-  - tzdata=2022a=h191b570_0
+  - tzcode=2022c=h166bdaf_0
+  - tzdata=2022c=h191b570_0
   - udunits2=2.2.28=hc3e0081_0
-  - unixodbc=2.3.10=h583eb01_0
+  - unixodbc=2.3.11=h5eee18b_0
   - wheel=0.37.1=pyhd8ed1ab_0
   - x264=1!161.3030=h7f98852_1
   - x265=3.5=h924138e_3
@@ -1205,15 +1206,15 @@ dependencies:
   - xorg-renderproto=0.11.1=h14c3975_1002
   - xorg-xextproto=7.3.0=h14c3975_1002
   - xorg-xproto=7.0.31=h14c3975_1007
-  - xz=5.2.5=h516909a_1
+  - xz=5.2.6=h166bdaf_0
   - zlib=1.2.12=h166bdaf_2
-  - zstd=1.5.2=h8a70e8d_2
+  - zstd=1.5.2=h8a70e8d_4
   - pip:
     - cffi==1.15.1
     - markupsafe==2.1.1
-    - numpy==1.23.1
+    - numpy==1.23.2
     - pytz-deprecation-shim==0.1.0.post0
     - rpy2==3.5.1
-    - setuptools==63.2.0
+    - setuptools==65.0.2
     - tzlocal==4.2
-prefix: /home/users/iwi/.conda/envs/jasr4.0-m3-4.9.2-r20220729_2
+prefix: /appx/jasmin/jaspy/miniconda_envs/jaspy3.7/m3-4.9.2/envs/jasr4.0-m3-4.9.2-r20220729_4
