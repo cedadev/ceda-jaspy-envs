@@ -1,0 +1,5 @@
+name: jaspy3.10-m3-4.9.2-r20220721
+channels:
+  - conda-forge
+  - defaults
+dependencies:

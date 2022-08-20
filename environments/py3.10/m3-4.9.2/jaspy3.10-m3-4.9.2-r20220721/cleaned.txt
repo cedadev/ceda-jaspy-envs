@@ -581,3 +581,32 @@ dependencies:
     - shiboken2==5.13.2
     - virtualenv-clone==0.5.7
 
+# Pip installs
+  - pip:
+    - bigtiff==0.1.2
+    - ccplot==2.1.1
+    - cf-plot==3.1.23
+    - cf-python==3.13.0
+    - cfchecker==4.1.0
+    - cfdm==1.9.0.4
+    - cfunits==3.3.4
+    - configobj==5.0.6
+    - ecmwf-api-client==1.6.3
+    - f90nml==1.4.3
+    - kaitaistruct==0.8
+    - mo-pack==0.2.0
+    - nappy @ git+https://github.com/cedadev/nappy@327d4cbf05fd8a759bec11c4ed40ab204325c430
+    - nco==1.0.0
+    - netcdf-flattener==1.2.0
+    - oggm==1.5.3
+    - pipenv==2022.7.4
+    - progressbar2==4.0.0
+    - pygeode==1.4.1
+    - pypdftk==0.5
+    - PyQt5==5.12.3
+    - PyQt5_sip==4.19.18
+    - python-utils==3.3.3
+    - requests-cache==0.4.13
+    - shiboken2==5.13.2
+    - virtualenv-clone==0.5.7
+
