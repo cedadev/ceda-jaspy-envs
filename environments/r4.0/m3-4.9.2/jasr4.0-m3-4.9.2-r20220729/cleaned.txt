@@ -1217,3 +1217,12 @@ dependencies:
     - rpy2==3.5.1
     - setuptools==65.0.2
     - tzlocal==4.2
+# Pip installs
+  - pip:
+    - cffi==1.15.1
+    - markupsafe==2.1.1
+    - numpy==1.23.2
+    - pytz-deprecation-shim==0.1.0.post0
+    - rpy2==3.5.1
+    - setuptools==65.0.2
+    - tzlocal==4.2
