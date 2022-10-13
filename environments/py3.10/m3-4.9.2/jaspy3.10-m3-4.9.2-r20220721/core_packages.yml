@@ -229,6 +229,7 @@ dependencies:
     - scandir
     - spectral
     - dask-gateway
+    - gdb
 # pooch needed for xarray tests
     - pooch
 

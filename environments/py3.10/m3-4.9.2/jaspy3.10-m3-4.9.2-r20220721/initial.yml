@@ -135,6 +135,7 @@ dependencies:
   - gcc_impl_linux-64=12.1.0=hea43390_16
   - gcc_linux-64=12.1.0=h3bb4806_10
   - gdal=3.4.1=py310h222ae0d_2
+  - gdb=11.2=py310he3c4487_2
   - gdk-pixbuf=2.42.8=hff1cb4f_0
   - geopandas=0.11.0=pyhd8ed1ab_0
   - geopandas-base=0.11.0=pyha770c72_0
