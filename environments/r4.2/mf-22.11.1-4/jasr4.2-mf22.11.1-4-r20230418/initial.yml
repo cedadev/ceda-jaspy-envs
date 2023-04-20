@@ -1,4 +1,4 @@
-name: jasr4.2-mf22.11.1-4-r20230315
+name: jasr4.2-mf22.11.1-4-r20230418
 channels:
   - conda-forge
   - defaults
@@ -1219,4 +1219,4 @@ dependencies:
   - zeromq=4.3.4=h9c3ff4c_1
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h3eb15da_6
-prefix: /appx/jasmin/jaspy/mambaforge_envs/jaspy3.10/mf-22.11.1-4/envs/jasr4.2-mf22.11.1-4-r20230315
+prefix: /appx/jasmin/jaspy/mambaforge_envs/jaspy3.10/mf-22.11.1-4/envs/jasr4.2-mf22.11.1-4-r20230418
