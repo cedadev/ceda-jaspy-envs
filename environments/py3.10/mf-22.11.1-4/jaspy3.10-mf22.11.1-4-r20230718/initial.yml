@@ -131,6 +131,7 @@ dependencies:
   - esgf-pyclient=0.3.1=pyh1a96a4e_2
   - esmf=8.4.0=nompi_hdb2cfa9_4
   - esmpy=8.4.0=nompi_py310h4c636dd_2
+  - et_xmlfile=1.1.0=pyhd8ed1ab_0
   - exceptiongroup=1.1.2=pyhd8ed1ab_0
   - executing=1.2.0=pyhd8ed1ab_0
   - exiv2=0.27.6=hb9a316c_1
@@ -433,6 +434,7 @@ dependencies:
   - openjdk=17.0.3=hafdced1_4
   - openjpeg=2.5.0=h7d73246_1
   - openmpi=4.1.5=h414af15_101
+  - openpyxl=3.1.2=py310h2372a71_0
   - openssh=9.1p1=hf695f80_0
   - openssl=1.1.1u=hd590300_0
   - opt_einsum=3.3.0=pyhd8ed1ab_1

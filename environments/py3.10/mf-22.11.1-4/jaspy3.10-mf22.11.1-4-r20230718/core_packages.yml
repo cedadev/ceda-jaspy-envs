@@ -257,6 +257,7 @@ dependencies:
     - tensorflow
     - tensorflow-estimator
     - openjdk
+    - openpyxl
     
 #Pip installs
     - pip:
