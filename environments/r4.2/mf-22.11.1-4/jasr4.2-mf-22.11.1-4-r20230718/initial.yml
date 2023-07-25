@@ -1,4 +1,4 @@
-name: jasr4.2_r20230718
+name: jasr4.2-mf-22.11.1-4-r20230718
 channels:
   - conda-forge
   - defaults

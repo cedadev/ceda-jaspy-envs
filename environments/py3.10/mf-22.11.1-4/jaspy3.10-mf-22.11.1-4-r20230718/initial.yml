@@ -1,4 +1,4 @@
-name: jaspy3.10_r20230718
+name: jaspy3.10-mf-22.11.1-4-r20230718
 channels:
   - conda-forge
   - defaults
