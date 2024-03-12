@@ -88,16 +88,7 @@ dependencies:
     - lapack>=3.9.0
     - latexcodec>=2.0.1
     - libcdms>=3.1.2
-    #====================================================
-    # Specific libcurl version required for Spring 2023 release
-    # because hdf5 compilation was failing otherwise.
-    # Similarly with krb (although not normally listed in core packages)
-    # In future, try reverting to non-specific version of libcurl and 
-    # remove krb5.
-    #
     - libcurl>=7.83.1
-    - krb5>=1.19.3
-    #====================================================
     - libdrs>=3.1.2
     - libgdal>=3.5.2
     - libmo_unpack>=3.1.2
@@ -159,7 +150,6 @@ dependencies:
     - python-dateutil>=2.8.2
     - python-eccodes>=1.6.0
     - python-graphviz>=0.20.1
-    #- python>=3.10.8 # USE LATEST VERSION?
     - python>=3.11
     - pytz>=2023.3
     - pyugrid>=0.3.1
@@ -206,7 +196,6 @@ dependencies:
     - wrf-python>=1.3.4.1
     - wxpython>=4.2.0
     - xarray>=2023.7.0
-    # numba required for xesmf 0.6.2 but deps not set up
     - xesmf>=0.7.1
     - xgcm>=0.8.1
     - xhistogram>=0.3.2
@@ -234,12 +223,6 @@ dependencies:
 #    - pystan>=2.17.1.0
 #    - pyngl>=1.6.1
 #    - pyferret>=7.63
-# 
-# This removed (and put in jasmin-sci) because of problems with gsl dependencies, so are broken.
-# Aim to reinstate in a later jaspy.  Note: the conda environment will resolve with these, but they
-# do not run.
-#   
-#    - ncl >= 6.6.2
 #
 # We should at that time also add pynco and remove the equivalent pip package below (called nco).
 #
@@ -250,11 +233,10 @@ dependencies:
 # New packages for this release (no previous version, hence no version numbers here,
 # but should be given >= version numbers next time)
 #     
-    - dask-tensorflow    # readding previously removed
     - nco  # readding previously removed
     - pynco>=1.1.0
     - nctoolkit  # readding previously removed
-    - geocat-viz
+    - geocat-viz  # replaces NCL
     - geocat-datafiles
     - make
     - pysteps
@@ -264,7 +246,6 @@ dependencies:
     
 #Pip installs
     - pip:
-      - git+https://github.com/cedadev/nappy 
       - bigtiff>=0.1.2
       - ccplot>=2.1.2
       - cf-plot>=3.2.15
@@ -272,12 +253,14 @@ dependencies:
       - cfchecker>=4.1.0
       - ecmwf-api-client>=1.6.3
       - f90nml>=1.4.3
+      - nappy 
       # oggm needed for xarray tests
       - oggm>=1.6.0
       - pipenv>=2023.7.11
       - pygeode>=1.4.1
       - pypdftk>=0.5
       #- pyspharm>=1.0.9
-      #- windspharm>=1.7.0
+      -  git+https://github.com/cedadev/pyspharm.git@14a09f32762c8987201ae16e8d4da6af2c034a5a
+      - windspharm>=1.7.0
       - simplejson>=3.19.1
-      - cf_view 
+      - cf_view
