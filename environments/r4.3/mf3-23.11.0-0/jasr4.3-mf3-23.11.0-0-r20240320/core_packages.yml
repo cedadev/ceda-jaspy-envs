@@ -1007,4 +1007,5 @@ dependencies:
     - r-zoo>=1.8_12
     - rpy2>=3.5.11
     - python>=3.11.4 # USE LATEST VERSION?
+    - ocl-icd-system
 # new packs
