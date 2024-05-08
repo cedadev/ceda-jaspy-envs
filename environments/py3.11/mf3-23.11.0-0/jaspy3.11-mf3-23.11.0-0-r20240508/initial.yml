@@ -1,4 +1,4 @@
-name: jaspy3.11_r20240508_initial
+name: jaspy3.11-mf3-23.11.0-0-r20240508
 channels:
   - conda-forge
   - defaults
@@ -800,4 +800,3 @@ dependencies:
       -  git+https://github.com/jswhit/pyspharm.git@master
       - python-utils==3.8.2
       - windspharm==1.7.0
-prefix: /var/tmp/mf3/envs/jaspy3.11_r20240508_initial
