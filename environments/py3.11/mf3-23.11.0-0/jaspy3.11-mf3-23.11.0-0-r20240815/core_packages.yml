@@ -2,7 +2,6 @@
 name: jaspy
 channels:
     - conda-forge
-    - defaults
 dependencies:
     - aiohttp>=3.9.5
     - arpack>=3.8.0
@@ -64,7 +63,7 @@ dependencies:
     - gtk2>=2.24.33
     - gxx>=13.2.0
     - gxx_linux-64>=13.2.0
-    - h5py>=3.11.0=mpi_mpich*
+    - h5py>=3.11.0
     - hdf5>=1.14.3
     - hdfeos2>=2.20
     - hdfeos5>=5.1.16
@@ -115,7 +114,7 @@ dependencies:
     - ncview>=2.1.8
     - netcdf-cxx4>=4.3.1
     - netcdf-fortran>=4.6.1
-    - netcdf4>=1.6.5=mpi_mpich*
+    - netcdf4>=1.6.5
     - nose>=1.3.7
     - numba>=0.59.1
     - numexpr>=2.9.0
@@ -191,8 +190,11 @@ dependencies:
     - sqlite>=3.45.3
     - statsmodels>=0.14.1
     - sympy>=1.12
-    - tcsh>=6.24.10    
-    - tensorflow>=2.15.0
+    - tcsh>=6.24.10
+    # For now, pin tensorflow version to avoid broken
+    # 2.16.2, in which cannot import tensorflow_estimator
+    - tensorflow==2.15.0
+    - tensorflow-estimator==2.15.0
     - tk>=8.6.13
     - tmux>=3.4
     - toolz>=0.12.1
@@ -225,9 +227,6 @@ dependencies:
 ##GraphicsMagick-c++
 ##python27-cerbere
 #
-#    tensorflow_estimator no longer imports
-#    - tensorflow-estimator>=2.15.0
-#
 # These removed for the time being because of dependence on older versions of C / fortran libraries
 #  - aim to reinstate in a later Jaspy
 #     [rechecked these for Python 3.11 release and are still not compatible]
@@ -246,7 +245,10 @@ dependencies:
 # New packages for this release (no previous version, hence no version numbers here,
 # but should be given >= version numbers next time)
 #     
-    
+    - perl-uri
+    - parcels
+    - geovista
+
 #Pip installs
     - pip:
       - bigtiff>=0.1.2
