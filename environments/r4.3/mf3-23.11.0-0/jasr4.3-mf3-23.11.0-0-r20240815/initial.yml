@@ -1,4 +1,4 @@
-name: jasr4.3_r20240815
+name: jasr4.3-mf3-23.11.0-0-r20240815
 channels:
   - conda-forge
 dependencies:
@@ -1286,4 +1286,4 @@ dependencies:
   - zeromq=4.3.5=h75354e8_4
   - zlib=1.3.1=h4ab18f5_1
   - zstd=1.5.6=ha6fb4c9_0
-prefix: /appx/jasmin/jaspy/miniforge_envs/jaspy3.11/mf3-23.11.0-0/envs/jasr4.3_r20240815
+
