@@ -1,4 +1,4 @@
-name: jaspy3.11-mf3-23.11.0-0-r20240815
+name: jaspy3.11-mf3-23.11.0-0-v20240815
 channels:
   - conda-forge
 dependencies:
