@@ -1,0 +1,292 @@
+# for the required packages, versions at least those in jaspy/3.7/r20210320
+name: jaspy
+channels:
+    - conda-forge
+dependencies:
+    # explicitly add aiobotocore to better constrain botocore version
+    # (otherwise pip install will downgrade botocore)
+    - aiobotocore
+    - aiohttp>=3.10.3
+    - arpack>=3.9.1
+    - astral>=3.2
+    - autoconf>=2.71
+    - basemap-data-hires>=1.3.2
+    - basemap>=1.4.1
+    - binutils>=2.40
+    - blas>=2.123
+    - boto3>=1.34.162
+    - botocore>=1.34.162
+    - cartopy>=0.23.0
+    - cdo>=2.4.0
+    - cdsapi>=0.7.0
+    - certifi>=2024.7.4
+    - cf-units>=3.2.0
+    - cfgrib>=0.9.14.0
+    - cftime>=1.6.4
+    - chardet>=5.2.0
+    - cloudpickle>=3.0.0
+    - cmake>=3.30.2
+    - cmocean>=4.0.3
+    - cvxopt>=1.3.2
+    - cycler>=0.12.1
+    - cython>=3.0.11
+    - dask-gateway>=2024.1.0
+    #=============================
+    # Pinning dask for now for compatibility with cf-python 3.17.0
+    # but 3.18.0, due out in first half of June, will not require this.
+    # So probably will be removing the <= pin before release.
+    #
+    #- dask>=2024.8.0
+    - dask>=2025.2.0,<=2025.3.0
+    #=============================
+    - descartes>=1.1.0
+    - eccodes>=2.36.0
+    - emcee>=3.1.6
+    - eofs>=1.4.1
+    - esgf-pyclient>=0.3.1
+    - esmf>=8.6.1
+    - ffmpeg>=6.1.1
+    - fftw>=3.3.10
+    - filelock>=3.15.4
+    - fiona>=1.9.6
+    - flake8>=7.1.1
+    - flex>=2.6.4
+    - fsspec>=2024.6.1
+    - gcc>=14.1.0
+    - gcc_linux-64>=14.1.0
+    - gdal>=3.8.4
+    - gdb>=15.1
+    - geocat-datafiles>=2022.03.0
+    - geocat-viz>=2024.03.0
+    - geopandas>=1.0.1
+    - geos>=3.12.1
+    - geovista>=0.5.1
+    - gfortran>=14.1.0
+    - gfortran_linux-64>=14.1.0
+    - git>=2.43.0
+    - glib>=2.78.4
+    - gnuplot>=5.4.8
+    - graphicsmagick>=1.3.43
+    - graphviz>=9.0.0
+    - gsl>=2.7
+    - gsw>=3.6.19
+    - gtk2>=2.24.33
+    - gxx>=14.1.0
+    - gxx_linux-64>=14.1.0
+    - h5py>=3.11.0
+    - hdf5>=1.14.3
+    - hdfeos2>=2.20
+    - hdfeos5>=5.1.16
+    - httplib2>=0.22.0
+    - idna>=3.7
+    - ilamb>=2.7
+    - imagehash>=4.3.1
+    - imagemagick>=7.1.1_29
+    - intake-esm>=2024.2.6
+    - intake-xarray>=0.7.0
+    - ipyleaflet>=0.19.2
+    - ipython>=8.26.0
+    - iris-grib>=0.19.0
+    - iris-sample-data>=2.4.0
+    - iris>=3.10.0
+    - jags>=4.3.2
+    - jasper>=4.2.4
+    - jinja2>=3.1.4
+    - jmespath>=1.0.1
+    - joblib>=1.4.2
+    - jug>=2.3.1
+    - keras>=2.15.0
+    - kiwisolver>=1.4.5
+    - lapack>=3.9.0
+    - latexcodec>=2.0.1
+    - libcdms>=3.1.2
+    - libcurl>=8.9.1
+    - libdrs>=3.1.2
+    - libgdal>=3.8.4
+    - libmo_unpack>=3.1.2
+    - libuuid>=2.38.1
+    - llvmdev>=18.1.8
+    - llvmlite>=0.43.0
+    - locket>=1.0.0
+    - make>=4.3
+    - markupsafe>=2.1.5
+    - minio>=7.2.7
+    - mo_pack>=0.3.1
+    - mock>=5.1.0
+    - mpi4py>=4.0.0
+    - mpich>=4.2.2
+    - mpmath>=1.3.0
+    - nbconvert>=7.16.4
+    - nc-time-axis>=1.4.1
+    - nccmp>=1.9.1.0
+    - nco>=5.2.7
+    - nctoolkit>=1.1.11
+    - ncview>=2.1.8
+    - netcdf-cxx4>=4.3.1
+    - netcdf-fortran>=4.6.1
+    - netcdf4>=1.7.1
+    - numba>=0.60.0
+    - numexpr>=2.10.0
+    - numpy>=2.1.2
+    - openjdk>=22.0.1
+    - openpyxl>=3.1.5
+    # packaging was 24.0 but needed to downgrade
+    - packaging>=23.2
+    - pandas>=2.2.2
+    - parallel>=20240722
+    #- parcels>=3.0.4
+    - partd>=1.4.2
+    - patsy>=0.5.6
+    - pep8>=1.7.1
+    - perl-xml-parser>=2.44_01
+    - perl>=5.32.1
+    - perl-uri>=5.17
+    - pillow>=10.3.0
+    - pip>=24.2
+    - pooch>=1.8.2
+    - postgresql>=16.4
+    - psutil>=6.0.0
+    - psycopg2>=2.9.9
+    - pyaml>=24.7.0
+    - pybtex>=0.24.0
+    - pycairo>=1.26.1
+    - pycodestyle>=2.12.1
+    - pydap>=3.4.0
+    - pygments>=2.18.0
+    - pygobject>=3.48.1
+    - pygrib>=2.1.6
+    - pyhdf>=0.11.4
+    - pyke>=1.1.1
+    - pylint>=3.2.6
+    - pynco>=1.1.2
+    - pyparsing>=3.1.2
+    - pyproj>=3.6.1
+    - pyshp>=2.3.1
+    - pyside2>=5.15.8
+    - pyside6
+    - pysoundfile>=0.12.1
+    - pysteps>=1.10.0
+    - pytest>=8.3.2
+    - python-dateutil>=2.9.0
+    - python-eccodes>=1.7.1
+    - python-graphviz>=0.20.3
+    - python=3.12
+    - pytz>=2024.1
+    - pyugrid>=0.3.1
+    - pyyaml>=6.0.2
+    - pyzmq>=26.1.0
+    - qt-main>=5.15.8
+    - qt6-main
+    - qtconsole>=5.5.2
+    - rasterio>=1.3.9
+    - regionmask>=0.12.1
+    - requests>=2.32.3
+    - rioxarray>=0.17.0
+    - s3fs>=0.4.2
+    - s3transfer>=0.10.2
+    - satpy>=0.51.0
+    - scandir>=1.10.0
+    - scikit-image>=0.24.0
+    - scikit-learn>=1.5.1
+    - scipy>=1.14.0
+    - seaborn>=0.13.2
+    - setuptools>=72.1.0
+    - shapely>=2.0.4
+    - simplejson>=3.19.3
+    - singledispatch>=3.6.1
+    - six>=1.16.0
+    - spectral>=0.23.1
+    - sphinx>=8.0.2
+    - sqlalchemy>=2.0.32
+    - sqlite>=3.46.0
+    - statsmodels>=0.14.2
+    - sympy>=1.13.2
+    - tcsh>=6.24.10
+    - tensorflow>=2.18.0
+    ###- tensorflow-estimator>=2.18.0
+    - tk>=8.6.13
+    - tmux>=3.4
+    - toolz>=0.12.1
+    - tornado>=6.4.1
+    - tqdm>=4.66.5
+    - udunits2>=2.2.28
+    - urllib3>=2.2.2
+    - valgrind>=3.23.0
+    - virtualenv>=20.26.3
+    - webob>=1.8.7
+    - wxpython>=4.2.1
+    - xarray>=2024.7.0
+    - xesmf>=0.8.7
+    - xgcm>=0.8.1
+    - xhistogram>=0.3.2
+    - xorg-libx11>=1.8.9
+
+#============================================================
+# PACKAGES THAT WERE RECENTLY REMOVED
+#============================================================
+#
+# Keep recently removed packages as comments in this section,
+# and ensure that the release notes document the removal.
+#
+# Next time, try to re-add them.  But if they are still incompatible,
+# then they should be considered permanently removed and the comment
+# can be removed also.
+#
+#  NOSE removed - not Python 3.12 compatible
+#    (uses "imp" that was removed from python standard library)
+#    - nose>=1.3.7
+#
+#  CIS removed: not Python 3.12 compatible and
+#  http://www.cistools.net no longer exists
+#    - cis>=1.7.9
+#
+#    - qt -- just contains some docs, and these have dependency issues;
+#            qt-main has the actual content of importance
+#
+#
+#    - qgis -- a recent qgis (3.42.2) has dependency conflicts with a lot of
+#               other packages (basemap, cdo, magics, mpich, nctoolkit,
+#               tensorflow, tensorflow-base), and some older ones are not
+#               compatible with numpy 2.
+#
+#     PIP packages removed
+#
+##       - ccplot>=2.1.4     (compilation errors)
+
+#============================================================
+# NEW PACKAGES
+#============================================================
+# New packages for this release (no previous version, hence no version numbers here,
+# but should be given >= version numbers next time)
+
+
+#Pip installs
+    - pip:
+      - bigtiff>=0.1.2
+      - cf-plot>=3.3.0
+      - cf-python>=3.16.2
+      - cfchecker>=4.1.0
+      - ecmwf-api-client>=1.6.3
+      - f90nml>=1.4.4
+      - nappy>=2.0.2
+      # oggm needed for xarray tests
+      # (and this needs salem, mentioning explicitly as it is not getting auto installed)
+      - oggm>=1.6.1
+      - salem>=0.3.11
+      - pipenv>=2024.0.1
+      # pygeode on pypi includes binaries built against numpy 1.x, so use github
+      # commit to force compilation (hash is HEAD of master at time of writing)
+      #- pygeode>=1.4.1
+      - git+https://github.com/pygeode/pygeode.git@b6df0aa07d994fa54e5e568b76ab3f41af704655      
+      - git+https://github.com/jswhit/pyspharm.git
+      - pypdftk>=0.5
+      #- pyspharm>=1.0.9
+      # patch for pyspharm on cedadev now merged into master but not yet a
+      # tagged release published on pypi
+      - git+https://github.com/jswhit/pyspharm.git
+      - windspharm>=1.7.0
+      - cf_view>=3.2.25
+      # parcels moved to pip package, because the conda package requires
+      # "c-compiler" which breaks the gcc package
+      - parcels>=3.0.4
+
