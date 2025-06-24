@@ -306,7 +306,5 @@ dependencies:
       - intake-xarray>=0.7.0
       - intake-esm>=2023.11.10
       - huracanpy
-#      - ceda-datapoint
-      - git+https://github.com/alaniwi/ArrayPartition.git@relax_deps
-      - git+https://github.com/cedadev/CFAPyX.git@relax_deps
-      - git+https://github.com/cedadev/datapoint.git@relax_deps
+      - ibicus
+      - ceda-datapoint
