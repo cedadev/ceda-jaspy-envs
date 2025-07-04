@@ -1,4 +1,4 @@
-name: jasr4.4-mf3-23.11.0-0-v20250704_4
+name: jasr4.4-mf3-23.11.0-0-v20250704
 channels:
   - conda-forge
 dependencies:
