@@ -877,5 +877,3 @@ dependencies:
       - typing-inspection==0.4.1
       - uritools==5.0.0
       - windspharm==2.0.0
-prefix: 
-  /var/tmp/iwi/jaspy/miniforge_envs/jaspy3.12/mf3-25.3.0-3/envs/jaspy3.12-mf3-25.3.0-3-v20250704
