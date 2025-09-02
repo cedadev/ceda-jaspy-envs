@@ -1,4 +1,4 @@
-name: /tmp/jasr4.4-mf3-23.11.0-0-v20250902
+name: jasr4.4-mf3-23.11.0-0-v20250902
 channels:
   - conda-forge
 dependencies:
@@ -1240,4 +1240,3 @@ dependencies:
   - zeromq=4.3.5=h3b0a872_7
   - zlib=1.3.1=hb9d3cd8_2
   - zstd=1.5.7=hb8e6e7a_2
-prefix: /tmp/jasr4.4-mf3-23.11.0-0-v20250902
