@@ -1,0 +1,78 @@
+# diffs from Jaspy to JasML
+
+# list any packages to exclude (just the names, without versions)
+# also any to required (names with optional versioning)
+# pip packages to require will be listed in output yaml, although they
+# will not necessarily be installed separately, if already satisfied via
+# conda packages
+
+
+comments:
+  - JasML environment file
+  
+conda:
+  exclude:
+  require:
+
+pip:
+  exclude:
+    - pygeode
+    - nappy  # to add below from github
+  require:
+    - git+https://github.com/cedadev/nappy.git@109b542
+    - accelerate
+    - albumentations
+    - bitsandbytes
+    - cartopy
+    - catboost
+    - cmake
+    - cupy-cuda12x
+    - dask
+    - datasets
+    - evaluate
+    #- flash-attn
+    - flax
+    - ipywidgets
+    - jax
+    - jax-cuda12-plugin
+    - jupyterlab
+    - librosa
+    - lightgbm
+    - lightning
+    - matplotlib
+    - mlflow
+    - ninja
+    - numba
+    - numpy
+    - onnx
+    - onnxruntime-gpu
+    - opencv-python-headless
+    - optax
+    - optuna
+    - orbax-checkpoint
+    - pip
+    - pkgconfig
+    - plotly
+    - polars
+    - pyarrow
+    - scikit-learn
+    - scipy
+    - sentencepiece
+    - setuptools
+    - soundfile
+    - statsmodels
+    - tensorflow
+    - timm
+    - tokenizers
+    - torch
+    - torch-geometric
+    - torchaudio
+    - torchmetrics
+    - torchvision
+    - transformers
+    - triton
+    - typing-extensions
+    - wandb
+    - wheel
+    - xformers
+    - xgboost
